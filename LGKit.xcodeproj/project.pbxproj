@@ -10,6 +10,81 @@
 		814C4A3D202AF536007F54CB /* LGKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814C4A33202AF535007F54CB /* LGKit.framework */; };
 		814C4A42202AF536007F54CB /* LGKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A41202AF536007F54CB /* LGKitTests.m */; };
 		814C4A44202AF536007F54CB /* LGKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A36202AF535007F54CB /* LGKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4A92202AF6A2007F54CB /* CAShapeLayer+LG.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A4F202AF6A2007F54CB /* CAShapeLayer+LG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4A93202AF6A2007F54CB /* CAShapeLayer+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A50202AF6A2007F54CB /* CAShapeLayer+LG.m */; };
+		814C4A94202AF6A2007F54CB /* NSString+LGNull.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A52202AF6A2007F54CB /* NSString+LGNull.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4A95202AF6A2007F54CB /* NSString+LGDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A53202AF6A2007F54CB /* NSString+LGDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4A96202AF6A2007F54CB /* NSString+LGSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A54202AF6A2007F54CB /* NSString+LGSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4A97202AF6A2007F54CB /* NSString+LGFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A55202AF6A2007F54CB /* NSString+LGFormat.m */; };
+		814C4A98202AF6A2007F54CB /* NSString+LGOther.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A56202AF6A2007F54CB /* NSString+LGOther.m */; };
+		814C4A99202AF6A2007F54CB /* NSString+LGDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A57202AF6A2007F54CB /* NSString+LGDate.m */; };
+		814C4A9A202AF6A2007F54CB /* NSString+LGNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A58202AF6A2007F54CB /* NSString+LGNull.m */; };
+		814C4A9B202AF6A2007F54CB /* NSString+LGFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A59202AF6A2007F54CB /* NSString+LGFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4A9C202AF6A2007F54CB /* NSString+LGSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A5A202AF6A2007F54CB /* NSString+LGSize.m */; };
+		814C4A9D202AF6A2007F54CB /* NSString+LGOther.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A5B202AF6A2007F54CB /* NSString+LGOther.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4A9E202AF6A2007F54CB /* NSDate+LG.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A5D202AF6A2007F54CB /* NSDate+LG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4A9F202AF6A2007F54CB /* NSDate+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A5E202AF6A2007F54CB /* NSDate+LG.m */; };
+		814C4AA0202AF6A2007F54CB /* NSObject+LGModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A60202AF6A2007F54CB /* NSObject+LGModel.m */; };
+		814C4AA1202AF6A2007F54CB /* NSObject+LGEasyKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A61202AF6A2007F54CB /* NSObject+LGEasyKVO.m */; };
+		814C4AA2202AF6A2007F54CB /* NSObject+LGRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A62202AF6A2007F54CB /* NSObject+LGRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4AA3202AF6A2007F54CB /* NSObject+LGProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A63202AF6A2007F54CB /* NSObject+LGProperty.m */; };
+		814C4AA4202AF6A2007F54CB /* NSObject+LGSwizzDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A64202AF6A2007F54CB /* NSObject+LGSwizzDealloc.m */; };
+		814C4AA5202AF6A2007F54CB /* NSObject+LGPerformBlockAfterDelay.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A65202AF6A2007F54CB /* NSObject+LGPerformBlockAfterDelay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4AA6202AF6A2007F54CB /* NSObject+LGProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A66202AF6A2007F54CB /* NSObject+LGProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4AA7202AF6A2007F54CB /* NSObject+LGRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A67202AF6A2007F54CB /* NSObject+LGRuntime.m */; };
+		814C4AA8202AF6A2007F54CB /* NSObject+LGEasyKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A68202AF6A2007F54CB /* NSObject+LGEasyKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4AA9202AF6A2007F54CB /* NSObject+LGModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A69202AF6A2007F54CB /* NSObject+LGModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4AAA202AF6A2007F54CB /* NSObject+LGPerformBlockAfterDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A6A202AF6A2007F54CB /* NSObject+LGPerformBlockAfterDelay.m */; };
+		814C4AAB202AF6A2007F54CB /* NSObject+LGSwizzDealloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A6B202AF6A2007F54CB /* NSObject+LGSwizzDealloc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4AAC202AF6A2007F54CB /* UIScrollView+LGScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A6D202AF6A2007F54CB /* UIScrollView+LGScreenShot.m */; };
+		814C4AAD202AF6A2007F54CB /* UITableView+LG.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A6E202AF6A2007F54CB /* UITableView+LG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4AAE202AF6A2007F54CB /* UICollectionView+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A6F202AF6A2007F54CB /* UICollectionView+LG.m */; };
+		814C4AAF202AF6A2007F54CB /* UIScrollView+LGScreenShot.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A70202AF6A2007F54CB /* UIScrollView+LGScreenShot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4AB0202AF6A2007F54CB /* UICollectionView+LG.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A71202AF6A2007F54CB /* UICollectionView+LG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4AB1202AF6A2007F54CB /* UITableView+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A72202AF6A2007F54CB /* UITableView+LG.m */; };
+		814C4AB2202AF6A2007F54CB /* UIColor+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A74202AF6A2007F54CB /* UIColor+LG.m */; };
+		814C4AB3202AF6A2007F54CB /* UIColor+LG.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A75202AF6A2007F54CB /* UIColor+LG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4AB4202AF6A2007F54CB /* UIButton+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A77202AF6A2007F54CB /* UIButton+LG.m */; };
+		814C4AB5202AF6A2007F54CB /* UIButton+LG.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A78202AF6A2007F54CB /* UIButton+LG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4AB6202AF6A2007F54CB /* UIImage+LGColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A7A202AF6A2007F54CB /* UIImage+LGColor.m */; };
+		814C4AB7202AF6A2007F54CB /* UIImage+LG.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A7B202AF6A2007F54CB /* UIImage+LG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4AB8202AF6A2007F54CB /* UIImage+LGView.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A7C202AF6A2007F54CB /* UIImage+LGView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4AB9202AF6A2007F54CB /* UIImage+LGScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A7D202AF6A2007F54CB /* UIImage+LGScale.m */; };
+		814C4ABA202AF6A2007F54CB /* UIImage+LGOther.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A7E202AF6A2007F54CB /* UIImage+LGOther.m */; };
+		814C4ABB202AF6A2007F54CB /* UIImage+LGColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A7F202AF6A2007F54CB /* UIImage+LGColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4ABC202AF6A2007F54CB /* UIImage+LGScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A80202AF6A2007F54CB /* UIImage+LGScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4ABD202AF6A2007F54CB /* UIImage+LGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A81202AF6A2007F54CB /* UIImage+LGView.m */; };
+		814C4ABE202AF6A2007F54CB /* UIImage+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A82202AF6A2007F54CB /* UIImage+LG.m */; };
+		814C4ABF202AF6A2007F54CB /* UIImage+LGOther.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A83202AF6A2007F54CB /* UIImage+LGOther.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4AC0202AF6A2007F54CB /* UIViewController+LG.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A85202AF6A2007F54CB /* UIViewController+LG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4AC1202AF6A2007F54CB /* UIViewController+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A86202AF6A2007F54CB /* UIViewController+LG.m */; };
+		814C4AC2202AF6A2007F54CB /* UITextView+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A88202AF6A2007F54CB /* UITextView+LG.m */; };
+		814C4AC3202AF6A2007F54CB /* UITextView+LG.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A89202AF6A2007F54CB /* UITextView+LG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4AC4202AF6A2007F54CB /* UIImageView+LG.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A8B202AF6A2007F54CB /* UIImageView+LG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4AC5202AF6A2007F54CB /* UIImageView+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A8C202AF6A2007F54CB /* UIImageView+LG.m */; };
+		814C4AC6202AF6A2007F54CB /* UIView+LGAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A8E202AF6A2007F54CB /* UIView+LGAutoLayout.m */; };
+		814C4AC7202AF6A2007F54CB /* UIView+LG.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A8F202AF6A2007F54CB /* UIView+LG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4AC8202AF6A2007F54CB /* UIView+LGAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A90202AF6A2007F54CB /* UIView+LGAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814C4AC9202AF6A2007F54CB /* UIView+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A91202AF6A2007F54CB /* UIView+LG.m */; };
+		814C4ACC202AF7F2007F54CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814C4ACB202AF7F2007F54CB /* UIKit.framework */; };
+		814C4ACE202AF7FE007F54CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814C4ACD202AF7FE007F54CB /* Foundation.framework */; };
+		814C4AD0202AF807007F54CB /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814C4ACF202AF807007F54CB /* CoreFoundation.framework */; };
+		814C4AD2202AF852007F54CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814C4AD1202AF852007F54CB /* CoreGraphics.framework */; };
+		814C4ADB202AFE49007F54CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4ADA202AFE49007F54CB /* AppDelegate.m */; };
+		814C4AE1202AFE49007F54CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814C4ADF202AFE49007F54CB /* Main.storyboard */; };
+		814C4AE3202AFE49007F54CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814C4AE2202AFE49007F54CB /* Assets.xcassets */; };
+		814C4AE6202AFE49007F54CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814C4AE4202AFE49007F54CB /* LaunchScreen.storyboard */; };
+		814C4AE9202AFE49007F54CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4AE8202AFE49007F54CB /* main.m */; };
+		814C4AED202AFE73007F54CB /* LGKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814C4A33202AF535007F54CB /* LGKit.framework */; };
+		814C4AEE202AFE73007F54CB /* LGKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 814C4A33202AF535007F54CB /* LGKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		814C4B01202AFEA3007F54CB /* EasyKVOTestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4AF4202AFEA2007F54CB /* EasyKVOTestObj.m */; };
+		814C4B02202AFEA3007F54CB /* EasyKVOTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4AF5202AFEA2007F54CB /* EasyKVOTestViewController.m */; };
+		814C4B03202AFEA3007F54CB /* LGListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4AF9202AFEA2007F54CB /* LGListItem.m */; };
+		814C4B04202AFEA3007F54CB /* SwizzTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4AFB202AFEA3007F54CB /* SwizzTestObject.m */; };
+		814C4B05202AFEA3007F54CB /* SubSwizzTestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4AFC202AFEA3007F54CB /* SubSwizzTestObj.m */; };
+		814C4B06202AFEA3007F54CB /* SwizzDeallocViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4B00202AFEA3007F54CB /* SwizzDeallocViewController.m */; };
+		814C4B08202AFEB3007F54CB /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 814C4B07202AFEB2007F54CB /* Config.xcconfig */; };
+		814C4B0B202AFEF5007F54CB /* LGListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4B09202AFEF4007F54CB /* LGListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,7 +95,28 @@
 			remoteGlobalIDString = 814C4A32202AF535007F54CB;
 			remoteInfo = LGKit;
 		};
+		814C4AEF202AFE73007F54CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 814C4A2A202AF535007F54CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 814C4A32202AF535007F54CB;
+			remoteInfo = LGKit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		814C4AF1202AFE73007F54CB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				814C4AEE202AFE73007F54CB /* LGKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		814C4A33202AF535007F54CB /* LGKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +125,89 @@
 		814C4A3C202AF536007F54CB /* LGKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		814C4A41202AF536007F54CB /* LGKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGKitTests.m; sourceTree = "<group>"; };
 		814C4A43202AF536007F54CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		814C4A4F202AF6A2007F54CB /* CAShapeLayer+LG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+LG.h"; sourceTree = "<group>"; };
+		814C4A50202AF6A2007F54CB /* CAShapeLayer+LG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+LG.m"; sourceTree = "<group>"; };
+		814C4A52202AF6A2007F54CB /* NSString+LGNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LGNull.h"; sourceTree = "<group>"; };
+		814C4A53202AF6A2007F54CB /* NSString+LGDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LGDate.h"; sourceTree = "<group>"; };
+		814C4A54202AF6A2007F54CB /* NSString+LGSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LGSize.h"; sourceTree = "<group>"; };
+		814C4A55202AF6A2007F54CB /* NSString+LGFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LGFormat.m"; sourceTree = "<group>"; };
+		814C4A56202AF6A2007F54CB /* NSString+LGOther.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LGOther.m"; sourceTree = "<group>"; };
+		814C4A57202AF6A2007F54CB /* NSString+LGDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LGDate.m"; sourceTree = "<group>"; };
+		814C4A58202AF6A2007F54CB /* NSString+LGNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LGNull.m"; sourceTree = "<group>"; };
+		814C4A59202AF6A2007F54CB /* NSString+LGFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LGFormat.h"; sourceTree = "<group>"; };
+		814C4A5A202AF6A2007F54CB /* NSString+LGSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LGSize.m"; sourceTree = "<group>"; };
+		814C4A5B202AF6A2007F54CB /* NSString+LGOther.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LGOther.h"; sourceTree = "<group>"; };
+		814C4A5D202AF6A2007F54CB /* NSDate+LG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+LG.h"; sourceTree = "<group>"; };
+		814C4A5E202AF6A2007F54CB /* NSDate+LG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LG.m"; sourceTree = "<group>"; };
+		814C4A60202AF6A2007F54CB /* NSObject+LGModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LGModel.m"; sourceTree = "<group>"; };
+		814C4A61202AF6A2007F54CB /* NSObject+LGEasyKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LGEasyKVO.m"; sourceTree = "<group>"; };
+		814C4A62202AF6A2007F54CB /* NSObject+LGRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LGRuntime.h"; sourceTree = "<group>"; };
+		814C4A63202AF6A2007F54CB /* NSObject+LGProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LGProperty.m"; sourceTree = "<group>"; };
+		814C4A64202AF6A2007F54CB /* NSObject+LGSwizzDealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LGSwizzDealloc.m"; sourceTree = "<group>"; };
+		814C4A65202AF6A2007F54CB /* NSObject+LGPerformBlockAfterDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LGPerformBlockAfterDelay.h"; sourceTree = "<group>"; };
+		814C4A66202AF6A2007F54CB /* NSObject+LGProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LGProperty.h"; sourceTree = "<group>"; };
+		814C4A67202AF6A2007F54CB /* NSObject+LGRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LGRuntime.m"; sourceTree = "<group>"; };
+		814C4A68202AF6A2007F54CB /* NSObject+LGEasyKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LGEasyKVO.h"; sourceTree = "<group>"; };
+		814C4A69202AF6A2007F54CB /* NSObject+LGModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LGModel.h"; sourceTree = "<group>"; };
+		814C4A6A202AF6A2007F54CB /* NSObject+LGPerformBlockAfterDelay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LGPerformBlockAfterDelay.m"; sourceTree = "<group>"; };
+		814C4A6B202AF6A2007F54CB /* NSObject+LGSwizzDealloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LGSwizzDealloc.h"; sourceTree = "<group>"; };
+		814C4A6D202AF6A2007F54CB /* UIScrollView+LGScreenShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LGScreenShot.m"; sourceTree = "<group>"; };
+		814C4A6E202AF6A2007F54CB /* UITableView+LG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LG.h"; sourceTree = "<group>"; };
+		814C4A6F202AF6A2007F54CB /* UICollectionView+LG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+LG.m"; sourceTree = "<group>"; };
+		814C4A70202AF6A2007F54CB /* UIScrollView+LGScreenShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LGScreenShot.h"; sourceTree = "<group>"; };
+		814C4A71202AF6A2007F54CB /* UICollectionView+LG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+LG.h"; sourceTree = "<group>"; };
+		814C4A72202AF6A2007F54CB /* UITableView+LG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LG.m"; sourceTree = "<group>"; };
+		814C4A74202AF6A2007F54CB /* UIColor+LG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LG.m"; sourceTree = "<group>"; };
+		814C4A75202AF6A2007F54CB /* UIColor+LG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LG.h"; sourceTree = "<group>"; };
+		814C4A77202AF6A2007F54CB /* UIButton+LG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LG.m"; sourceTree = "<group>"; };
+		814C4A78202AF6A2007F54CB /* UIButton+LG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LG.h"; sourceTree = "<group>"; };
+		814C4A7A202AF6A2007F54CB /* UIImage+LGColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LGColor.m"; sourceTree = "<group>"; };
+		814C4A7B202AF6A2007F54CB /* UIImage+LG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LG.h"; sourceTree = "<group>"; };
+		814C4A7C202AF6A2007F54CB /* UIImage+LGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LGView.h"; sourceTree = "<group>"; };
+		814C4A7D202AF6A2007F54CB /* UIImage+LGScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LGScale.m"; sourceTree = "<group>"; };
+		814C4A7E202AF6A2007F54CB /* UIImage+LGOther.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LGOther.m"; sourceTree = "<group>"; };
+		814C4A7F202AF6A2007F54CB /* UIImage+LGColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LGColor.h"; sourceTree = "<group>"; };
+		814C4A80202AF6A2007F54CB /* UIImage+LGScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LGScale.h"; sourceTree = "<group>"; };
+		814C4A81202AF6A2007F54CB /* UIImage+LGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LGView.m"; sourceTree = "<group>"; };
+		814C4A82202AF6A2007F54CB /* UIImage+LG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LG.m"; sourceTree = "<group>"; };
+		814C4A83202AF6A2007F54CB /* UIImage+LGOther.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LGOther.h"; sourceTree = "<group>"; };
+		814C4A85202AF6A2007F54CB /* UIViewController+LG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LG.h"; sourceTree = "<group>"; };
+		814C4A86202AF6A2007F54CB /* UIViewController+LG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LG.m"; sourceTree = "<group>"; };
+		814C4A88202AF6A2007F54CB /* UITextView+LG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+LG.m"; sourceTree = "<group>"; };
+		814C4A89202AF6A2007F54CB /* UITextView+LG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+LG.h"; sourceTree = "<group>"; };
+		814C4A8B202AF6A2007F54CB /* UIImageView+LG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LG.h"; sourceTree = "<group>"; };
+		814C4A8C202AF6A2007F54CB /* UIImageView+LG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LG.m"; sourceTree = "<group>"; };
+		814C4A8E202AF6A2007F54CB /* UIView+LGAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LGAutoLayout.m"; sourceTree = "<group>"; };
+		814C4A8F202AF6A2007F54CB /* UIView+LG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LG.h"; sourceTree = "<group>"; };
+		814C4A90202AF6A2007F54CB /* UIView+LGAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LGAutoLayout.h"; sourceTree = "<group>"; };
+		814C4A91202AF6A2007F54CB /* UIView+LG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LG.m"; sourceTree = "<group>"; };
+		814C4ACB202AF7F2007F54CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		814C4ACD202AF7FE007F54CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		814C4ACF202AF807007F54CB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		814C4AD1202AF852007F54CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		814C4AD7202AFE49007F54CB /* LGKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		814C4AD9202AFE49007F54CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		814C4ADA202AFE49007F54CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		814C4AE0202AFE49007F54CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		814C4AE2202AFE49007F54CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		814C4AE5202AFE49007F54CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		814C4AE7202AFE49007F54CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		814C4AE8202AFE49007F54CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		814C4AF3202AFEA2007F54CB /* EasyKVOTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyKVOTestViewController.h; sourceTree = "<group>"; };
+		814C4AF4202AFEA2007F54CB /* EasyKVOTestObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyKVOTestObj.m; sourceTree = "<group>"; };
+		814C4AF5202AFEA2007F54CB /* EasyKVOTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyKVOTestViewController.m; sourceTree = "<group>"; };
+		814C4AF6202AFEA2007F54CB /* EasyKVOTestObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyKVOTestObj.h; sourceTree = "<group>"; };
+		814C4AF8202AFEA2007F54CB /* LGListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGListItem.h; sourceTree = "<group>"; };
+		814C4AF9202AFEA2007F54CB /* LGListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGListItem.m; sourceTree = "<group>"; };
+		814C4AFB202AFEA3007F54CB /* SwizzTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwizzTestObject.m; sourceTree = "<group>"; };
+		814C4AFC202AFEA3007F54CB /* SubSwizzTestObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubSwizzTestObj.m; sourceTree = "<group>"; };
+		814C4AFD202AFEA3007F54CB /* SwizzDeallocViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzDeallocViewController.h; sourceTree = "<group>"; };
+		814C4AFE202AFEA3007F54CB /* SwizzTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzTestObject.h; sourceTree = "<group>"; };
+		814C4AFF202AFEA3007F54CB /* SubSwizzTestObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubSwizzTestObj.h; sourceTree = "<group>"; };
+		814C4B00202AFEA3007F54CB /* SwizzDeallocViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwizzDeallocViewController.m; sourceTree = "<group>"; };
+		814C4B07202AFEB2007F54CB /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		814C4B09202AFEF4007F54CB /* LGListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGListViewController.m; sourceTree = "<group>"; };
+		814C4B0A202AFEF5007F54CB /* LGListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGListViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +215,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				814C4AD2202AF852007F54CB /* CoreGraphics.framework in Frameworks */,
+				814C4AD0202AF807007F54CB /* CoreFoundation.framework in Frameworks */,
+				814C4ACE202AF7FE007F54CB /* Foundation.framework in Frameworks */,
+				814C4ACC202AF7F2007F54CB /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +230,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		814C4AD4202AFE49007F54CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814C4AED202AFE73007F54CB /* LGKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,7 +246,9 @@
 			children = (
 				814C4A35202AF535007F54CB /* LGKit */,
 				814C4A40202AF536007F54CB /* LGKitTests */,
+				814C4AD8202AFE49007F54CB /* LGKitDemo */,
 				814C4A34202AF535007F54CB /* Products */,
+				814C4ACA202AF7F2007F54CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +257,7 @@
 			children = (
 				814C4A33202AF535007F54CB /* LGKit.framework */,
 				814C4A3C202AF536007F54CB /* LGKitTests.xctest */,
+				814C4AD7202AFE49007F54CB /* LGKitDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +265,7 @@
 		814C4A35202AF535007F54CB /* LGKit */ = {
 			isa = PBXGroup;
 			children = (
+				814C4A4D202AF6A2007F54CB /* Category */,
 				814C4A36202AF535007F54CB /* LGKit.h */,
 				814C4A37202AF536007F54CB /* Info.plist */,
 			);
@@ -86,6 +281,229 @@
 			path = LGKitTests;
 			sourceTree = "<group>";
 		};
+		814C4A4D202AF6A2007F54CB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				814C4A4E202AF6A2007F54CB /* LGLayer */,
+				814C4A51202AF6A2007F54CB /* LGNSString */,
+				814C4A5C202AF6A2007F54CB /* LGNSDate */,
+				814C4A5F202AF6A2007F54CB /* LGNSObject */,
+				814C4A6C202AF6A2007F54CB /* LGUIScrollView */,
+				814C4A73202AF6A2007F54CB /* LGUIColor */,
+				814C4A76202AF6A2007F54CB /* LGUIButton */,
+				814C4A79202AF6A2007F54CB /* LGUIImage */,
+				814C4A84202AF6A2007F54CB /* LGUIViewController */,
+				814C4A87202AF6A2007F54CB /* LGUITextView */,
+				814C4A8A202AF6A2007F54CB /* LGUIImageView */,
+				814C4A8D202AF6A2007F54CB /* LGUIView */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		814C4A4E202AF6A2007F54CB /* LGLayer */ = {
+			isa = PBXGroup;
+			children = (
+				814C4A4F202AF6A2007F54CB /* CAShapeLayer+LG.h */,
+				814C4A50202AF6A2007F54CB /* CAShapeLayer+LG.m */,
+			);
+			path = LGLayer;
+			sourceTree = "<group>";
+		};
+		814C4A51202AF6A2007F54CB /* LGNSString */ = {
+			isa = PBXGroup;
+			children = (
+				814C4A52202AF6A2007F54CB /* NSString+LGNull.h */,
+				814C4A58202AF6A2007F54CB /* NSString+LGNull.m */,
+				814C4A53202AF6A2007F54CB /* NSString+LGDate.h */,
+				814C4A57202AF6A2007F54CB /* NSString+LGDate.m */,
+				814C4A54202AF6A2007F54CB /* NSString+LGSize.h */,
+				814C4A5A202AF6A2007F54CB /* NSString+LGSize.m */,
+				814C4A59202AF6A2007F54CB /* NSString+LGFormat.h */,
+				814C4A55202AF6A2007F54CB /* NSString+LGFormat.m */,
+				814C4A5B202AF6A2007F54CB /* NSString+LGOther.h */,
+				814C4A56202AF6A2007F54CB /* NSString+LGOther.m */,
+			);
+			path = LGNSString;
+			sourceTree = "<group>";
+		};
+		814C4A5C202AF6A2007F54CB /* LGNSDate */ = {
+			isa = PBXGroup;
+			children = (
+				814C4A5D202AF6A2007F54CB /* NSDate+LG.h */,
+				814C4A5E202AF6A2007F54CB /* NSDate+LG.m */,
+			);
+			path = LGNSDate;
+			sourceTree = "<group>";
+		};
+		814C4A5F202AF6A2007F54CB /* LGNSObject */ = {
+			isa = PBXGroup;
+			children = (
+				814C4A69202AF6A2007F54CB /* NSObject+LGModel.h */,
+				814C4A60202AF6A2007F54CB /* NSObject+LGModel.m */,
+				814C4A68202AF6A2007F54CB /* NSObject+LGEasyKVO.h */,
+				814C4A61202AF6A2007F54CB /* NSObject+LGEasyKVO.m */,
+				814C4A62202AF6A2007F54CB /* NSObject+LGRuntime.h */,
+				814C4A67202AF6A2007F54CB /* NSObject+LGRuntime.m */,
+				814C4A66202AF6A2007F54CB /* NSObject+LGProperty.h */,
+				814C4A63202AF6A2007F54CB /* NSObject+LGProperty.m */,
+				814C4A6B202AF6A2007F54CB /* NSObject+LGSwizzDealloc.h */,
+				814C4A64202AF6A2007F54CB /* NSObject+LGSwizzDealloc.m */,
+				814C4A65202AF6A2007F54CB /* NSObject+LGPerformBlockAfterDelay.h */,
+				814C4A6A202AF6A2007F54CB /* NSObject+LGPerformBlockAfterDelay.m */,
+			);
+			path = LGNSObject;
+			sourceTree = "<group>";
+		};
+		814C4A6C202AF6A2007F54CB /* LGUIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				814C4A6E202AF6A2007F54CB /* UITableView+LG.h */,
+				814C4A72202AF6A2007F54CB /* UITableView+LG.m */,
+				814C4A71202AF6A2007F54CB /* UICollectionView+LG.h */,
+				814C4A6F202AF6A2007F54CB /* UICollectionView+LG.m */,
+				814C4A70202AF6A2007F54CB /* UIScrollView+LGScreenShot.h */,
+				814C4A6D202AF6A2007F54CB /* UIScrollView+LGScreenShot.m */,
+			);
+			path = LGUIScrollView;
+			sourceTree = "<group>";
+		};
+		814C4A73202AF6A2007F54CB /* LGUIColor */ = {
+			isa = PBXGroup;
+			children = (
+				814C4A75202AF6A2007F54CB /* UIColor+LG.h */,
+				814C4A74202AF6A2007F54CB /* UIColor+LG.m */,
+			);
+			path = LGUIColor;
+			sourceTree = "<group>";
+		};
+		814C4A76202AF6A2007F54CB /* LGUIButton */ = {
+			isa = PBXGroup;
+			children = (
+				814C4A78202AF6A2007F54CB /* UIButton+LG.h */,
+				814C4A77202AF6A2007F54CB /* UIButton+LG.m */,
+			);
+			path = LGUIButton;
+			sourceTree = "<group>";
+		};
+		814C4A79202AF6A2007F54CB /* LGUIImage */ = {
+			isa = PBXGroup;
+			children = (
+				814C4A7B202AF6A2007F54CB /* UIImage+LG.h */,
+				814C4A82202AF6A2007F54CB /* UIImage+LG.m */,
+				814C4A83202AF6A2007F54CB /* UIImage+LGOther.h */,
+				814C4A7E202AF6A2007F54CB /* UIImage+LGOther.m */,
+				814C4A7F202AF6A2007F54CB /* UIImage+LGColor.h */,
+				814C4A7A202AF6A2007F54CB /* UIImage+LGColor.m */,
+				814C4A80202AF6A2007F54CB /* UIImage+LGScale.h */,
+				814C4A7D202AF6A2007F54CB /* UIImage+LGScale.m */,
+				814C4A7C202AF6A2007F54CB /* UIImage+LGView.h */,
+				814C4A81202AF6A2007F54CB /* UIImage+LGView.m */,
+			);
+			path = LGUIImage;
+			sourceTree = "<group>";
+		};
+		814C4A84202AF6A2007F54CB /* LGUIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				814C4A85202AF6A2007F54CB /* UIViewController+LG.h */,
+				814C4A86202AF6A2007F54CB /* UIViewController+LG.m */,
+			);
+			path = LGUIViewController;
+			sourceTree = "<group>";
+		};
+		814C4A87202AF6A2007F54CB /* LGUITextView */ = {
+			isa = PBXGroup;
+			children = (
+				814C4A89202AF6A2007F54CB /* UITextView+LG.h */,
+				814C4A88202AF6A2007F54CB /* UITextView+LG.m */,
+			);
+			path = LGUITextView;
+			sourceTree = "<group>";
+		};
+		814C4A8A202AF6A2007F54CB /* LGUIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				814C4A8B202AF6A2007F54CB /* UIImageView+LG.h */,
+				814C4A8C202AF6A2007F54CB /* UIImageView+LG.m */,
+			);
+			path = LGUIImageView;
+			sourceTree = "<group>";
+		};
+		814C4A8D202AF6A2007F54CB /* LGUIView */ = {
+			isa = PBXGroup;
+			children = (
+				814C4A90202AF6A2007F54CB /* UIView+LGAutoLayout.h */,
+				814C4A8E202AF6A2007F54CB /* UIView+LGAutoLayout.m */,
+				814C4A8F202AF6A2007F54CB /* UIView+LG.h */,
+				814C4A91202AF6A2007F54CB /* UIView+LG.m */,
+			);
+			path = LGUIView;
+			sourceTree = "<group>";
+		};
+		814C4ACA202AF7F2007F54CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				814C4AD1202AF852007F54CB /* CoreGraphics.framework */,
+				814C4ACF202AF807007F54CB /* CoreFoundation.framework */,
+				814C4ACD202AF7FE007F54CB /* Foundation.framework */,
+				814C4ACB202AF7F2007F54CB /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		814C4AD8202AFE49007F54CB /* LGKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				814C4B07202AFEB2007F54CB /* Config.xcconfig */,
+				814C4AF7202AFEA2007F54CB /* Model */,
+				814C4AF2202AFEA2007F54CB /* EasyKVOTest */,
+				814C4AFA202AFEA2007F54CB /* SwizzDeallocTest */,
+				814C4AD9202AFE49007F54CB /* AppDelegate.h */,
+				814C4ADA202AFE49007F54CB /* AppDelegate.m */,
+				814C4B0A202AFEF5007F54CB /* LGListViewController.h */,
+				814C4B09202AFEF4007F54CB /* LGListViewController.m */,
+				814C4ADF202AFE49007F54CB /* Main.storyboard */,
+				814C4AE2202AFE49007F54CB /* Assets.xcassets */,
+				814C4AE4202AFE49007F54CB /* LaunchScreen.storyboard */,
+				814C4AE7202AFE49007F54CB /* Info.plist */,
+				814C4AE8202AFE49007F54CB /* main.m */,
+			);
+			path = LGKitDemo;
+			sourceTree = "<group>";
+		};
+		814C4AF2202AFEA2007F54CB /* EasyKVOTest */ = {
+			isa = PBXGroup;
+			children = (
+				814C4AF6202AFEA2007F54CB /* EasyKVOTestObj.h */,
+				814C4AF4202AFEA2007F54CB /* EasyKVOTestObj.m */,
+				814C4AF3202AFEA2007F54CB /* EasyKVOTestViewController.h */,
+				814C4AF5202AFEA2007F54CB /* EasyKVOTestViewController.m */,
+			);
+			path = EasyKVOTest;
+			sourceTree = "<group>";
+		};
+		814C4AF7202AFEA2007F54CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				814C4AF8202AFEA2007F54CB /* LGListItem.h */,
+				814C4AF9202AFEA2007F54CB /* LGListItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		814C4AFA202AFEA2007F54CB /* SwizzDeallocTest */ = {
+			isa = PBXGroup;
+			children = (
+				814C4AFE202AFEA3007F54CB /* SwizzTestObject.h */,
+				814C4AFB202AFEA3007F54CB /* SwizzTestObject.m */,
+				814C4AFF202AFEA3007F54CB /* SubSwizzTestObj.h */,
+				814C4AFC202AFEA3007F54CB /* SubSwizzTestObj.m */,
+				814C4AFD202AFEA3007F54CB /* SwizzDeallocViewController.h */,
+				814C4B00202AFEA3007F54CB /* SwizzDeallocViewController.m */,
+			);
+			path = SwizzDeallocTest;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +511,35 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				814C4ABF202AF6A2007F54CB /* UIImage+LGOther.h in Headers */,
+				814C4AAB202AF6A2007F54CB /* NSObject+LGSwizzDealloc.h in Headers */,
+				814C4AB3202AF6A2007F54CB /* UIColor+LG.h in Headers */,
+				814C4AC8202AF6A2007F54CB /* UIView+LGAutoLayout.h in Headers */,
+				814C4AA5202AF6A2007F54CB /* NSObject+LGPerformBlockAfterDelay.h in Headers */,
 				814C4A44202AF536007F54CB /* LGKit.h in Headers */,
+				814C4A96202AF6A2007F54CB /* NSString+LGSize.h in Headers */,
+				814C4ABB202AF6A2007F54CB /* UIImage+LGColor.h in Headers */,
+				814C4AB8202AF6A2007F54CB /* UIImage+LGView.h in Headers */,
+				814C4AC7202AF6A2007F54CB /* UIView+LG.h in Headers */,
+				814C4AC4202AF6A2007F54CB /* UIImageView+LG.h in Headers */,
+				814C4AB7202AF6A2007F54CB /* UIImage+LG.h in Headers */,
+				814C4AC0202AF6A2007F54CB /* UIViewController+LG.h in Headers */,
+				814C4A94202AF6A2007F54CB /* NSString+LGNull.h in Headers */,
+				814C4AAF202AF6A2007F54CB /* UIScrollView+LGScreenShot.h in Headers */,
+				814C4AB0202AF6A2007F54CB /* UICollectionView+LG.h in Headers */,
+				814C4A92202AF6A2007F54CB /* CAShapeLayer+LG.h in Headers */,
+				814C4AA2202AF6A2007F54CB /* NSObject+LGRuntime.h in Headers */,
+				814C4AA8202AF6A2007F54CB /* NSObject+LGEasyKVO.h in Headers */,
+				814C4A9B202AF6A2007F54CB /* NSString+LGFormat.h in Headers */,
+				814C4AA6202AF6A2007F54CB /* NSObject+LGProperty.h in Headers */,
+				814C4A9D202AF6A2007F54CB /* NSString+LGOther.h in Headers */,
+				814C4AAD202AF6A2007F54CB /* UITableView+LG.h in Headers */,
+				814C4ABC202AF6A2007F54CB /* UIImage+LGScale.h in Headers */,
+				814C4A9E202AF6A2007F54CB /* NSDate+LG.h in Headers */,
+				814C4A95202AF6A2007F54CB /* NSString+LGDate.h in Headers */,
+				814C4AC3202AF6A2007F54CB /* UITextView+LG.h in Headers */,
+				814C4AA9202AF6A2007F54CB /* NSObject+LGModel.h in Headers */,
+				814C4AB5202AF6A2007F54CB /* UIButton+LG.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +582,25 @@
 			productReference = 814C4A3C202AF536007F54CB /* LGKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		814C4AD6202AFE49007F54CB /* LGKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814C4AEA202AFE49007F54CB /* Build configuration list for PBXNativeTarget "LGKitDemo" */;
+			buildPhases = (
+				814C4AD3202AFE49007F54CB /* Sources */,
+				814C4AD4202AFE49007F54CB /* Frameworks */,
+				814C4AD5202AFE49007F54CB /* Resources */,
+				814C4AF1202AFE73007F54CB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				814C4AF0202AFE73007F54CB /* PBXTargetDependency */,
+			);
+			name = LGKitDemo;
+			productName = LGKitDemo;
+			productReference = 814C4AD7202AFE49007F54CB /* LGKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -153,6 +618,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					814C4AD6202AFE49007F54CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 814C4A2D202AF535007F54CB /* Build configuration list for PBXProject "LGKit" */;
@@ -161,6 +630,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 814C4A29202AF535007F54CB;
 			productRefGroup = 814C4A34202AF535007F54CB /* Products */;
@@ -169,6 +639,7 @@
 			targets = (
 				814C4A32202AF535007F54CB /* LGKit */,
 				814C4A3B202AF536007F54CB /* LGKitTests */,
+				814C4AD6202AFE49007F54CB /* LGKitDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +659,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		814C4AD5202AFE49007F54CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814C4B08202AFEB3007F54CB /* Config.xcconfig in Resources */,
+				814C4AE6202AFE49007F54CB /* LaunchScreen.storyboard in Resources */,
+				814C4AE3202AFE49007F54CB /* Assets.xcassets in Resources */,
+				814C4AE1202AFE49007F54CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,6 +677,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				814C4AB2202AF6A2007F54CB /* UIColor+LG.m in Sources */,
+				814C4AAE202AF6A2007F54CB /* UICollectionView+LG.m in Sources */,
+				814C4AAC202AF6A2007F54CB /* UIScrollView+LGScreenShot.m in Sources */,
+				814C4A9A202AF6A2007F54CB /* NSString+LGNull.m in Sources */,
+				814C4AA3202AF6A2007F54CB /* NSObject+LGProperty.m in Sources */,
+				814C4AC9202AF6A2007F54CB /* UIView+LG.m in Sources */,
+				814C4AA1202AF6A2007F54CB /* NSObject+LGEasyKVO.m in Sources */,
+				814C4A9F202AF6A2007F54CB /* NSDate+LG.m in Sources */,
+				814C4A9C202AF6A2007F54CB /* NSString+LGSize.m in Sources */,
+				814C4AA7202AF6A2007F54CB /* NSObject+LGRuntime.m in Sources */,
+				814C4A99202AF6A2007F54CB /* NSString+LGDate.m in Sources */,
+				814C4AA0202AF6A2007F54CB /* NSObject+LGModel.m in Sources */,
+				814C4AC2202AF6A2007F54CB /* UITextView+LG.m in Sources */,
+				814C4AC1202AF6A2007F54CB /* UIViewController+LG.m in Sources */,
+				814C4ABD202AF6A2007F54CB /* UIImage+LGView.m in Sources */,
+				814C4AB1202AF6A2007F54CB /* UITableView+LG.m in Sources */,
+				814C4ABA202AF6A2007F54CB /* UIImage+LGOther.m in Sources */,
+				814C4A93202AF6A2007F54CB /* CAShapeLayer+LG.m in Sources */,
+				814C4ABE202AF6A2007F54CB /* UIImage+LG.m in Sources */,
+				814C4AA4202AF6A2007F54CB /* NSObject+LGSwizzDealloc.m in Sources */,
+				814C4AAA202AF6A2007F54CB /* NSObject+LGPerformBlockAfterDelay.m in Sources */,
+				814C4AC6202AF6A2007F54CB /* UIView+LGAutoLayout.m in Sources */,
+				814C4AB9202AF6A2007F54CB /* UIImage+LGScale.m in Sources */,
+				814C4A97202AF6A2007F54CB /* NSString+LGFormat.m in Sources */,
+				814C4AB4202AF6A2007F54CB /* UIButton+LG.m in Sources */,
+				814C4AB6202AF6A2007F54CB /* UIImage+LGColor.m in Sources */,
+				814C4A98202AF6A2007F54CB /* NSString+LGOther.m in Sources */,
+				814C4AC5202AF6A2007F54CB /* UIImageView+LG.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +716,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		814C4AD3202AFE49007F54CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814C4B05202AFEA3007F54CB /* SubSwizzTestObj.m in Sources */,
+				814C4B01202AFEA3007F54CB /* EasyKVOTestObj.m in Sources */,
+				814C4B0B202AFEF5007F54CB /* LGListViewController.m in Sources */,
+				814C4AE9202AFE49007F54CB /* main.m in Sources */,
+				814C4B03202AFEA3007F54CB /* LGListItem.m in Sources */,
+				814C4B04202AFEA3007F54CB /* SwizzTestObject.m in Sources */,
+				814C4B02202AFEA3007F54CB /* EasyKVOTestViewController.m in Sources */,
+				814C4B06202AFEA3007F54CB /* SwizzDeallocViewController.m in Sources */,
+				814C4ADB202AFE49007F54CB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -214,7 +740,31 @@
 			target = 814C4A32202AF535007F54CB /* LGKit */;
 			targetProxy = 814C4A3E202AF536007F54CB /* PBXContainerItemProxy */;
 		};
+		814C4AF0202AFE73007F54CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 814C4A32202AF535007F54CB /* LGKit */;
+			targetProxy = 814C4AEF202AFE73007F54CB /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		814C4ADF202AFE49007F54CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				814C4AE0202AFE49007F54CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		814C4AE4202AFE49007F54CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				814C4AE5202AFE49007F54CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		814C4A45202AF536007F54CB /* Debug */ = {
@@ -266,7 +816,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -318,7 +868,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -393,6 +943,38 @@
 			};
 			name = Release;
 		};
+		814C4AEB202AFE49007F54CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814C4B07202AFEB2007F54CB /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35Y285QLG5;
+				INFOPLIST_FILE = LGKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lg.LGKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		814C4AEC202AFE49007F54CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814C4B07202AFEB2007F54CB /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35Y285QLG5;
+				INFOPLIST_FILE = LGKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lg.LGKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -419,6 +1001,15 @@
 			buildConfigurations = (
 				814C4A4B202AF536007F54CB /* Debug */,
 				814C4A4C202AF536007F54CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		814C4AEA202AFE49007F54CB /* Build configuration list for PBXNativeTarget "LGKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814C4AEB202AFE49007F54CB /* Debug */,
+				814C4AEC202AFE49007F54CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

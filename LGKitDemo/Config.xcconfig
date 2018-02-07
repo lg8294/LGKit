@@ -1,0 +1,9 @@
+//
+//  Config.xcconfig
+//  LGKitDemo
+//
+//  Created by 李刚 on 2017/11/25.
+//  Copyright © 2017年 李刚. All rights reserved.
+//
+
+OTHER_LDFLAGS = $(inherited) -ObjC
