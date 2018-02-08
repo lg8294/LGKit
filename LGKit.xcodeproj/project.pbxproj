@@ -6,6 +6,20 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		81FCAA78202BDA17004EFCDD /* pruduce LGKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 81FCAA79202BDA17004EFCDD /* Build configuration list for PBXAggregateTarget "pruduce LGKit" */;
+			buildPhases = (
+				81FCAA7C202BDA20004EFCDD /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "pruduce LGKit";
+			productName = "pruduce LGKit";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		814C4A3D202AF536007F54CB /* LGKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814C4A33202AF535007F54CB /* LGKit.framework */; };
 		814C4A42202AF536007F54CB /* LGKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A41202AF536007F54CB /* LGKitTests.m */; };
@@ -208,6 +222,7 @@
 		814C4B07202AFEB2007F54CB /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		814C4B09202AFEF4007F54CB /* LGListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGListViewController.m; sourceTree = "<group>"; };
 		814C4B0A202AFEF5007F54CB /* LGListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGListViewController.h; sourceTree = "<group>"; };
+		81FCAA77202BD9F8004EFCDD /* pruduce-framework.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "pruduce-framework.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +259,7 @@
 		814C4A29202AF535007F54CB = {
 			isa = PBXGroup;
 			children = (
+				81FCAA77202BD9F8004EFCDD /* pruduce-framework.sh */,
 				814C4A35202AF535007F54CB /* LGKit */,
 				814C4A40202AF536007F54CB /* LGKitTests */,
 				814C4AD8202AFE49007F54CB /* LGKitDemo */,
@@ -622,6 +638,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					81FCAA78202BDA17004EFCDD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 814C4A2D202AF535007F54CB /* Build configuration list for PBXProject "LGKit" */;
@@ -640,6 +660,7 @@
 				814C4A32202AF535007F54CB /* LGKit */,
 				814C4A3B202AF536007F54CB /* LGKitTests */,
 				814C4AD6202AFE49007F54CB /* LGKitDemo */,
+				81FCAA78202BDA17004EFCDD /* pruduce LGKit */,
 			);
 		};
 /* End PBXProject section */
@@ -671,6 +692,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81FCAA7C202BDA20004EFCDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/pruduce-framework.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		814C4A2E202AF535007F54CB /* Sources */ = {
@@ -887,6 +924,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = LGKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -907,6 +945,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = LGKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -975,6 +1014,24 @@
 			};
 			name = Release;
 		};
+		81FCAA7A202BDA17004EFCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35Y285QLG5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81FCAA7B202BDA17004EFCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35Y285QLG5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1010,6 +1067,15 @@
 			buildConfigurations = (
 				814C4AEB202AFE49007F54CB /* Debug */,
 				814C4AEC202AFE49007F54CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81FCAA79202BDA17004EFCDD /* Build configuration list for PBXAggregateTarget "pruduce LGKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81FCAA7A202BDA17004EFCDD /* Debug */,
+				81FCAA7B202BDA17004EFCDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
