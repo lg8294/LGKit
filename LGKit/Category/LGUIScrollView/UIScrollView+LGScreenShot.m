@@ -15,24 +15,20 @@ NS_ASSUME_NONNULL_BEGIN
  *截图
  */
 - (nullable UIImage *)lg_screenShot{
-    UIImage* screenShotImage = nil;
-    float scale = [UIScreen mainScreen].scale;
-    
-    UIGraphicsBeginImageContextWithOptions(self.contentSize, NO, scale);
     
     CGPoint savedContentOffset = self.contentOffset;
     CGRect savedFrame = self.frame;
+    
     self.contentOffset = CGPointZero;
-    
     self.frame = CGRectMake(0, 0, self.contentSize.width, self.contentSize.height);
-    [self.layer renderInContext: UIGraphicsGetCurrentContext()];
     
-    screenShotImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsBeginImageContextWithOptions(self.contentSize, NO, [UIScreen mainScreen].scale);
+    [self.layer renderInContext: UIGraphicsGetCurrentContext()];
+    UIImage *screenShotImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
     
     self.contentOffset = savedContentOffset;
     self.frame = savedFrame;
-
-    UIGraphicsEndImageContext();
     
     if (screenShotImage != nil) {
         NSLog(@"截图成功!");

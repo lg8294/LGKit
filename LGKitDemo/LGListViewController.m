@@ -7,10 +7,10 @@
 //
 
 #import "LGListViewController.h"
-#import "LGListItem.h"
+#import "Model/LGListItem.h"
 
-#import "SwizzDeallocViewController.h"
-#import "EasyKVOTestViewController.h"
+#import "SwizzDeallocTest/SwizzDeallocViewController.h"
+#import "EasyKVOTest/EasyKVOTestViewController.h"
 
 
 @interface LGListViewController ()

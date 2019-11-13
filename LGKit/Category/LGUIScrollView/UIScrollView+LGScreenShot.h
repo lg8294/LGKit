@@ -11,6 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 @interface UIScrollView (LGScreenShot)
 
+/// 截图
 - (nullable UIImage *)lg_screenShot;
 
 @end
