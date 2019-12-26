@@ -10,6 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@interface UITableView (LGBase)
+@end
+
 @interface UITableView (LGCell)
 
 /**
@@ -48,15 +51,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UITableView (LGGroupType)
 
-//@property (nonatomic, strong, nullable) UIView *tableHeaderView;                           // accessory view for above row content. default is nil. not to be confused with section header
-//@property (nonatomic, strong, nullable) UIView *tableFooterView;                           // accessory view below content. default is nil. not to be confused with section footer
-
-@property (nonatomic, strong, nullable, getter=tableHeaderView, setter=lg_setTableHeaderView:) UIView * lg_tableHeaderView;
-@property (nonatomic, strong, nullable, getter=tableFooterView, setter=lg_setTableFooterView:) UIView * lg_tableFooterView;
-
-
-//- (void)lg_setTableHeaderView:(nullable UIView *)tableHeaderView;
-//- (void)lg_setTableFooterView:(nullable UIView *)tableFooterView;
+@property (nonatomic, nullable, getter=tableHeaderView) UIView * lg_tableHeaderView;
+@property (nonatomic, nullable, getter=tableFooterView) UIView * lg_tableFooterView;
 
 @end
 

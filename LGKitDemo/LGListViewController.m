@@ -9,9 +9,9 @@
 #import "LGListViewController.h"
 #import "Model/LGListItem.h"
 
-#import "SwizzDeallocTest/SwizzDeallocViewController.h"
-#import "EasyKVOTest/EasyKVOTestViewController.h"
-
+#import "Examples/SwizzDealloc/SwizzDeallocViewController.h"
+#import "Examples/EasyKVO/EasyKVOTestViewController.h"
+#import "Examples/UITableView/TestTableViewViewController.h"
 
 @interface LGListViewController ()
 
@@ -34,6 +34,7 @@
     
     UIStoryboard *mainSB = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     
+    
     LGListItem *swizzDeallocTestItem = [[LGListItem alloc] initWithTitle:@"SwizzDealloc" subtitle:nil content:@"swizz Dealloc" handle:^{
         SwizzDeallocViewController *vc = [mainSB instantiateViewControllerWithIdentifier:@"SwizzDeallocViewController"];
         [self.navigationController pushViewController:vc animated:YES];
@@ -45,6 +46,12 @@
         [self.navigationController pushViewController:vc animated:YES];
     }];
     [_modelList addObject:easyKVOTestItem];
+    
+    LGListItem *tableViewTestItem = [[LGListItem alloc] initWithTitle:@"TableView" subtitle:nil content:@"测试 UITableView" handle:^{
+        TestTableViewViewController *vc = TestTableViewViewController.new;
+        [self.navigationController pushViewController:vc animated:YES];
+    }];
+    [_modelList addObject:tableViewTestItem];
     
     [self.tableView reloadData];
 }

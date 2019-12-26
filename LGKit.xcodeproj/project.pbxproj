@@ -87,8 +87,6 @@
 		814C4AE3202AFE49007F54CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814C4AE2202AFE49007F54CB /* Assets.xcassets */; };
 		814C4AE6202AFE49007F54CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814C4AE4202AFE49007F54CB /* LaunchScreen.storyboard */; };
 		814C4AE9202AFE49007F54CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4AE8202AFE49007F54CB /* main.m */; };
-		814C4AED202AFE73007F54CB /* LGKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814C4A33202AF535007F54CB /* LGKit.framework */; };
-		814C4AEE202AFE73007F54CB /* LGKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 814C4A33202AF535007F54CB /* LGKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		814C4B01202AFEA3007F54CB /* EasyKVOTestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4AF4202AFEA2007F54CB /* EasyKVOTestObj.m */; };
 		814C4B02202AFEA3007F54CB /* EasyKVOTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4AF5202AFEA2007F54CB /* EasyKVOTestViewController.m */; };
 		814C4B03202AFEA3007F54CB /* LGListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4AF9202AFEA2007F54CB /* LGListItem.m */; };
@@ -96,6 +94,15 @@
 		814C4B05202AFEA3007F54CB /* SubSwizzTestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4AFC202AFEA3007F54CB /* SubSwizzTestObj.m */; };
 		814C4B06202AFEA3007F54CB /* SwizzDeallocViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4B00202AFEA3007F54CB /* SwizzDeallocViewController.m */; };
 		814C4B0B202AFEF5007F54CB /* LGListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4B09202AFEF4007F54CB /* LGListViewController.m */; };
+		CB3D922F23B4608000C99D88 /* TestTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3D922E23B4607F00C99D88 /* TestTableViewViewController.m */; };
+		CB3D923223B460A900C99D88 /* TestTableViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3D923123B460A900C99D88 /* TestTableViewTableViewCell.m */; };
+		CB3D923623B460C100C99D88 /* TestTableViewTableViewNibCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3D923423B460C100C99D88 /* TestTableViewTableViewNibCell.m */; };
+		CB3D923723B460C100C99D88 /* TestTableViewTableViewNibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB3D923523B460C100C99D88 /* TestTableViewTableViewNibCell.xib */; };
+		CB3D923A23B4622A00C99D88 /* TestTableViewItem1.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3D923923B4622A00C99D88 /* TestTableViewItem1.m */; };
+		CB3D923F23B47F1100C99D88 /* LGKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814C4A33202AF535007F54CB /* LGKit.framework */; };
+		CB3D924423B47F5700C99D88 /* LGMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3D923E23B47D0400C99D88 /* LGMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB3D924723B4845100C99D88 /* TestTableViewItem2.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3D924623B4845100C99D88 /* TestTableViewItem2.m */; };
+		CB3D924D23B4851800C99D88 /* TestTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3D924C23B4851800C99D88 /* TestTableViewItem.m */; };
 		CBC5DB7E237BCBEE00A7DFC1 /* NSObject+Attribute.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC5DB7C237BCBEE00A7DFC1 /* NSObject+Attribute.m */; };
 		CBC5DB7F237BCBEE00A7DFC1 /* NSObject+Attribute.h in Headers */ = {isa = PBXBuildFile; fileRef = CBC5DB7D237BCBEE00A7DFC1 /* NSObject+Attribute.h */; };
 /* End PBXBuildFile section */
@@ -108,7 +115,7 @@
 			remoteGlobalIDString = 814C4A32202AF535007F54CB;
 			remoteInfo = LGKit;
 		};
-		814C4AEF202AFE73007F54CB /* PBXContainerItemProxy */ = {
+		CB3D924123B47F1100C99D88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 814C4A2A202AF535007F54CB /* Project object */;
 			proxyType = 1;
@@ -116,20 +123,6 @@
 			remoteInfo = LGKit;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		814C4AF1202AFE73007F54CB /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				814C4AEE202AFE73007F54CB /* LGKit.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		814C4A33202AF535007F54CB /* LGKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -220,6 +213,21 @@
 		814C4B09202AFEF4007F54CB /* LGListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGListViewController.m; sourceTree = "<group>"; };
 		814C4B0A202AFEF5007F54CB /* LGListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGListViewController.h; sourceTree = "<group>"; };
 		81FCAA77202BD9F8004EFCDD /* pruduce-framework.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "pruduce-framework.sh"; sourceTree = "<group>"; };
+		CB3D922D23B4607F00C99D88 /* TestTableViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewViewController.h; sourceTree = "<group>"; };
+		CB3D922E23B4607F00C99D88 /* TestTableViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewViewController.m; sourceTree = "<group>"; };
+		CB3D923023B460A900C99D88 /* TestTableViewTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewTableViewCell.h; sourceTree = "<group>"; };
+		CB3D923123B460A900C99D88 /* TestTableViewTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewTableViewCell.m; sourceTree = "<group>"; };
+		CB3D923323B460C100C99D88 /* TestTableViewTableViewNibCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewTableViewNibCell.h; sourceTree = "<group>"; };
+		CB3D923423B460C100C99D88 /* TestTableViewTableViewNibCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewTableViewNibCell.m; sourceTree = "<group>"; };
+		CB3D923523B460C100C99D88 /* TestTableViewTableViewNibCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestTableViewTableViewNibCell.xib; sourceTree = "<group>"; };
+		CB3D923823B4622A00C99D88 /* TestTableViewItem1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewItem1.h; sourceTree = "<group>"; };
+		CB3D923923B4622A00C99D88 /* TestTableViewItem1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewItem1.m; sourceTree = "<group>"; };
+		CB3D923C23B4627500C99D88 /* TestTableViewItemProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewItemProtocol.h; sourceTree = "<group>"; };
+		CB3D923E23B47D0400C99D88 /* LGMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGMacro.h; sourceTree = "<group>"; };
+		CB3D924523B4845100C99D88 /* TestTableViewItem2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewItem2.h; sourceTree = "<group>"; };
+		CB3D924623B4845100C99D88 /* TestTableViewItem2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewItem2.m; sourceTree = "<group>"; };
+		CB3D924B23B4851800C99D88 /* TestTableViewItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewItem.h; sourceTree = "<group>"; };
+		CB3D924C23B4851800C99D88 /* TestTableViewItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewItem.m; sourceTree = "<group>"; };
 		CBC5DB76237A9E6300A7DFC1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CBC5DB78237A9E6D00A7DFC1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CBC5DB7C237BCBEE00A7DFC1 /* NSObject+Attribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Attribute.m"; sourceTree = "<group>"; };
@@ -250,7 +258,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				814C4AED202AFE73007F54CB /* LGKit.framework in Frameworks */,
+				CB3D923F23B47F1100C99D88 /* LGKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +295,7 @@
 				814C4A4D202AF6A2007F54CB /* Category */,
 				814C4A36202AF535007F54CB /* LGKit.h */,
 				814C4A37202AF536007F54CB /* Info.plist */,
+				CB3D923E23B47D0400C99D88 /* LGMacro.h */,
 			);
 			path = LGKit;
 			sourceTree = "<group>";
@@ -304,17 +313,17 @@
 			isa = PBXGroup;
 			children = (
 				814C4A4E202AF6A2007F54CB /* LGLayer */,
-				814C4A51202AF6A2007F54CB /* LGNSString */,
 				814C4A5C202AF6A2007F54CB /* LGNSDate */,
 				814C4A5F202AF6A2007F54CB /* LGNSObject */,
-				814C4A6C202AF6A2007F54CB /* LGUIScrollView */,
-				814C4A73202AF6A2007F54CB /* LGUIColor */,
+				814C4A51202AF6A2007F54CB /* LGNSString */,
 				814C4A76202AF6A2007F54CB /* LGUIButton */,
+				814C4A73202AF6A2007F54CB /* LGUIColor */,
 				814C4A79202AF6A2007F54CB /* LGUIImage */,
-				814C4A84202AF6A2007F54CB /* LGUIViewController */,
-				814C4A87202AF6A2007F54CB /* LGUITextView */,
-				814C4A8A202AF6A2007F54CB /* LGUIImageView */,
 				814C4A8D202AF6A2007F54CB /* LGUIView */,
+				814C4A8A202AF6A2007F54CB /* LGUIImageView */,
+				814C4A6C202AF6A2007F54CB /* LGUIScrollView */,
+				814C4A87202AF6A2007F54CB /* LGUITextView */,
+				814C4A84202AF6A2007F54CB /* LGUIViewController */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -473,10 +482,9 @@
 		814C4AD8202AFE49007F54CB /* LGKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CB3D922C23B45FBD00C99D88 /* Examples */,
 				814C4B07202AFEB2007F54CB /* Config.xcconfig */,
 				814C4AF7202AFEA2007F54CB /* Model */,
-				814C4AF2202AFEA2007F54CB /* EasyKVOTest */,
-				814C4AFA202AFEA2007F54CB /* SwizzDeallocTest */,
 				814C4AD9202AFE49007F54CB /* AppDelegate.h */,
 				814C4ADA202AFE49007F54CB /* AppDelegate.m */,
 				814C4B0A202AFEF5007F54CB /* LGListViewController.h */,
@@ -490,7 +498,7 @@
 			path = LGKitDemo;
 			sourceTree = "<group>";
 		};
-		814C4AF2202AFEA2007F54CB /* EasyKVOTest */ = {
+		814C4AF2202AFEA2007F54CB /* EasyKVO */ = {
 			isa = PBXGroup;
 			children = (
 				814C4AF6202AFEA2007F54CB /* EasyKVOTestObj.h */,
@@ -498,7 +506,7 @@
 				814C4AF3202AFEA2007F54CB /* EasyKVOTestViewController.h */,
 				814C4AF5202AFEA2007F54CB /* EasyKVOTestViewController.m */,
 			);
-			path = EasyKVOTest;
+			path = EasyKVO;
 			sourceTree = "<group>";
 		};
 		814C4AF7202AFEA2007F54CB /* Model */ = {
@@ -510,7 +518,7 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		814C4AFA202AFEA2007F54CB /* SwizzDeallocTest */ = {
+		814C4AFA202AFEA2007F54CB /* SwizzDealloc */ = {
 			isa = PBXGroup;
 			children = (
 				814C4AFE202AFEA3007F54CB /* SwizzTestObject.h */,
@@ -520,7 +528,62 @@
 				814C4AFD202AFEA3007F54CB /* SwizzDeallocViewController.h */,
 				814C4B00202AFEA3007F54CB /* SwizzDeallocViewController.m */,
 			);
-			path = SwizzDeallocTest;
+			path = SwizzDealloc;
+			sourceTree = "<group>";
+		};
+		CB3D922B23B45F9300C99D88 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D924823B484C300C99D88 /* items */,
+				CB3D922D23B4607F00C99D88 /* TestTableViewViewController.h */,
+				CB3D922E23B4607F00C99D88 /* TestTableViewViewController.m */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		CB3D922C23B45FBD00C99D88 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				814C4AFA202AFEA2007F54CB /* SwizzDealloc */,
+				814C4AF2202AFEA2007F54CB /* EasyKVO */,
+				CB3D922B23B45F9300C99D88 /* UITableView */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		CB3D924823B484C300C99D88 /* items */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D923C23B4627500C99D88 /* TestTableViewItemProtocol.h */,
+				CB3D924B23B4851800C99D88 /* TestTableViewItem.h */,
+				CB3D924C23B4851800C99D88 /* TestTableViewItem.m */,
+				CB3D924A23B484DD00C99D88 /* item2 */,
+				CB3D924923B484D500C99D88 /* item1 */,
+			);
+			path = items;
+			sourceTree = "<group>";
+		};
+		CB3D924923B484D500C99D88 /* item1 */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D923023B460A900C99D88 /* TestTableViewTableViewCell.h */,
+				CB3D923123B460A900C99D88 /* TestTableViewTableViewCell.m */,
+				CB3D923823B4622A00C99D88 /* TestTableViewItem1.h */,
+				CB3D923923B4622A00C99D88 /* TestTableViewItem1.m */,
+			);
+			path = item1;
+			sourceTree = "<group>";
+		};
+		CB3D924A23B484DD00C99D88 /* item2 */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D923323B460C100C99D88 /* TestTableViewTableViewNibCell.h */,
+				CB3D923423B460C100C99D88 /* TestTableViewTableViewNibCell.m */,
+				CB3D923523B460C100C99D88 /* TestTableViewTableViewNibCell.xib */,
+				CB3D924523B4845100C99D88 /* TestTableViewItem2.h */,
+				CB3D924623B4845100C99D88 /* TestTableViewItem2.m */,
+			);
+			path = item2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -546,6 +609,7 @@
 				814C4A94202AF6A2007F54CB /* NSString+LGNull.h in Headers */,
 				814C4AAF202AF6A2007F54CB /* UIScrollView+LGScreenShot.h in Headers */,
 				814C4AB0202AF6A2007F54CB /* UICollectionView+LG.h in Headers */,
+				CB3D924423B47F5700C99D88 /* LGMacro.h in Headers */,
 				814C4A92202AF6A2007F54CB /* CAShapeLayer+LG.h in Headers */,
 				814C4AA2202AF6A2007F54CB /* NSObject+LGRuntime.h in Headers */,
 				814C4AA8202AF6A2007F54CB /* NSObject+LGEasyKVO.h in Headers */,
@@ -608,12 +672,11 @@
 				814C4AD3202AFE49007F54CB /* Sources */,
 				814C4AD4202AFE49007F54CB /* Frameworks */,
 				814C4AD5202AFE49007F54CB /* Resources */,
-				814C4AF1202AFE73007F54CB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				814C4AF0202AFE73007F54CB /* PBXTargetDependency */,
+				CB3D924223B47F1100C99D88 /* PBXTargetDependency */,
 			);
 			name = LGKitDemo;
 			productName = LGKitDemo;
@@ -626,6 +689,7 @@
 		814C4A2A202AF535007F54CB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LG;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = lg;
 				TargetAttributes = {
@@ -690,6 +754,7 @@
 				814C4AE6202AFE49007F54CB /* LaunchScreen.storyboard in Resources */,
 				814C4AE3202AFE49007F54CB /* Assets.xcassets in Resources */,
 				814C4AE1202AFE49007F54CB /* Main.storyboard in Resources */,
+				CB3D923723B460C100C99D88 /* TestTableViewTableViewNibCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,7 +772,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/pruduce-framework.sh\"";
+			shellScript = "\"${SRCROOT}/pruduce-framework.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -760,11 +825,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				814C4B05202AFEA3007F54CB /* SubSwizzTestObj.m in Sources */,
+				CB3D924D23B4851800C99D88 /* TestTableViewItem.m in Sources */,
+				CB3D923223B460A900C99D88 /* TestTableViewTableViewCell.m in Sources */,
 				814C4B01202AFEA3007F54CB /* EasyKVOTestObj.m in Sources */,
+				CB3D924723B4845100C99D88 /* TestTableViewItem2.m in Sources */,
 				814C4B0B202AFEF5007F54CB /* LGListViewController.m in Sources */,
 				814C4AE9202AFE49007F54CB /* main.m in Sources */,
+				CB3D923623B460C100C99D88 /* TestTableViewTableViewNibCell.m in Sources */,
+				CB3D922F23B4608000C99D88 /* TestTableViewViewController.m in Sources */,
 				814C4B03202AFEA3007F54CB /* LGListItem.m in Sources */,
 				814C4B04202AFEA3007F54CB /* SwizzTestObject.m in Sources */,
+				CB3D923A23B4622A00C99D88 /* TestTableViewItem1.m in Sources */,
 				814C4B02202AFEA3007F54CB /* EasyKVOTestViewController.m in Sources */,
 				814C4B06202AFEA3007F54CB /* SwizzDeallocViewController.m in Sources */,
 				814C4ADB202AFE49007F54CB /* AppDelegate.m in Sources */,
@@ -779,10 +850,10 @@
 			target = 814C4A32202AF535007F54CB /* LGKit */;
 			targetProxy = 814C4A3E202AF536007F54CB /* PBXContainerItemProxy */;
 		};
-		814C4AF0202AFE73007F54CB /* PBXTargetDependency */ = {
+		CB3D924223B47F1100C99D88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 814C4A32202AF535007F54CB /* LGKit */;
-			targetProxy = 814C4AEF202AFE73007F54CB /* PBXContainerItemProxy */;
+			targetProxy = CB3D924123B47F1100C99D88 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -926,7 +997,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 35Y285QLG5;
+				DEVELOPMENT_TEAM = E99MC68PJH;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -948,7 +1019,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 35Y285QLG5;
+				DEVELOPMENT_TEAM = E99MC68PJH;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -996,7 +1067,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 35Y285QLG5;
+				DEVELOPMENT_TEAM = E99MC68PJH;
 				INFOPLIST_FILE = LGKitDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1012,7 +1083,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 35Y285QLG5;
+				DEVELOPMENT_TEAM = E99MC68PJH;
 				INFOPLIST_FILE = LGKitDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

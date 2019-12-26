@@ -16,6 +16,8 @@ FOUNDATION_EXPORT const unsigned char LGKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <LGKit/PublicHeader.h>
 
+#import <LGKit/LGMacro.h>
+
 // NSObject
 #import <LGKit/NSObject+LGRuntime.h>
 #import <LGKit/NSObject+LGProperty.h>
@@ -40,7 +42,6 @@ FOUNDATION_EXPORT const unsigned char LGKitVersionString[];
 // UIImage
 #import <LGKit/UIImage+LG.h>
 #import <LGKit/UIImage+LGColor.h>
-#import <LGKit/UIImage+LGOther.h>
 #import <LGKit/UIImage+LGScale.h>
 #import <LGKit/UIImage+LGView.h>
 

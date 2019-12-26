@@ -7,8 +7,8 @@
 //
 
 #import "SwizzTestObject.h"
-//#import "NSObject+LGSwizzDealloc.h"
-#import <LGKit/NSObject+LGSwizzDealloc.h>
+#import "NSObject+LGSwizzDealloc.h"
+//#import <LGKit/NSObject+LGSwizzDealloc.h>
 
 @implementation SwizzTestObject
 
