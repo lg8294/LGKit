@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <LGKit/NSObject+LGAttribute.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    [UIView lg_logAllAttribute];
+    
     return YES;
 }
 

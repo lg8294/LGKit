@@ -17,8 +17,8 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="OEI-Lw-mq0">
-                        <rect key="frame" x="281" y="13.5" width="19" height="17.5"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="personal_signin" translatesAutoresizingMaskIntoConstraints="NO" id="OEI-Lw-mq0">
+                        <rect key="frame" x="276" y="10" width="24" height="24"/>
                     </imageView>
                 </subviews>
                 <constraints>
@@ -31,6 +31,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="person" catalog="system" width="64" height="58"/>
+        <image name="personal_signin" width="24" height="24"/>
     </resources>
 </document>

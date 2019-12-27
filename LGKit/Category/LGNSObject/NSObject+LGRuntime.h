@@ -10,25 +10,14 @@
 
 @interface NSObject (LGRuntime)
 
-/*!
- *  @author lg, 16-08-02 10:08:28
- *
- *  @brief 交换类方法
- *
- *  @param method1 方法一
- *  @param method2 方法二
- */
-+ (void)lg_exchangeClassMethod1:(SEL)method1 method2:(SEL)method2;
+/// 交换类方法，如果源方法没有实现，直接添加自定义方法的实现
+/// @param originSel 源方法
+/// @param customSel 自定义方法
++ (void)lg_exchangeClassOriginSel:(SEL)originSel customSel:(SEL)customSel;
 
-/*!
- *  @author lg, 16-08-02 10:08:50
- *
- *  @brief 交换实例方法
- *
- *  @param method1 方法一
- *  @param method2 方法二
- */
-+ (void)lg_exchangeInstanceMethod1:(SEL)method1 method2:(SEL)method2;
-
+/// 交换实例方法，如果源方法没有实现，直接添加自定义方法的实现
+/// @param originSel 源方法
+/// @param customSel 自定义方法
++ (void)lg_exchangeInstanceOriginSel:(SEL)originSel customSel:(SEL)customSel;
 
 @end

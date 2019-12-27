@@ -20,6 +20,7 @@ FOUNDATION_EXPORT const unsigned char LGKitVersionString[];
 
 // NSObject
 #import <LGKit/NSObject+LGRuntime.h>
+#import <LGKit/NSObject+LGAttribute.h>
 #import <LGKit/NSObject+LGProperty.h>
 #import <LGKit/NSObject+LGModel.h>
 #import <LGKit/NSObject+LGPerformBlockAfterDelay.h>

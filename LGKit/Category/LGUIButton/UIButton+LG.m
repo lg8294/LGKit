@@ -49,9 +49,13 @@ static const char BackgroundColorForStateKey;
 }
 
 + (void)load {
-    [self lg_exchangeInstanceMethod1:@selector(setHighlighted:) method2:@selector(lg_setHighlighted:)];
-    [self lg_exchangeInstanceMethod1:@selector(setSelected:) method2:@selector(lg_setSelected:)];
-    [self lg_exchangeInstanceMethod1:@selector(setEnabled:) method2:@selector(lg_setEnabled:)];
+    [self lg_exchangeInstanceOriginSel:@selector(setHighlighted:) customSel:@selector(lg_setHighlighted:)];
+    [self lg_exchangeInstanceOriginSel:@selector(setSelected:) customSel:@selector(lg_setSelected:)];
+    [self lg_exchangeInstanceOriginSel:@selector(setEnabled:) customSel:@selector(lg_setEnabled:)];
+    
+//    [self lg_exchangeInstanceMethod1:@selector(setHighlighted:) method2:@selector(lg_setHighlighted:)];
+//    [self lg_exchangeInstanceMethod1:@selector(setSelected:) method2:@selector(lg_setSelected:)];
+//    [self lg_exchangeInstanceMethod1:@selector(setEnabled:) method2:@selector(lg_setEnabled:)];
 }
 
 - (NSString *)keyForState:(UIControlState)state {

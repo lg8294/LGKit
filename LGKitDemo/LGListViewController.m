@@ -9,6 +9,7 @@
 #import "LGListViewController.h"
 #import "Model/LGListItem.h"
 
+#import "Examples/Swizz/LGSwizzViewController.h"
 #import "Examples/SwizzDealloc/SwizzDeallocViewController.h"
 #import "Examples/EasyKVO/EasyKVOTestViewController.h"
 #import "Examples/UITableView/TestTableViewViewController.h"
@@ -34,6 +35,11 @@
     
     UIStoryboard *mainSB = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     
+    LGListItem *swizzTestItem = [[LGListItem alloc] initWithTitle:@"测试方法交换" subtitle:nil content:@"测试 swizz method imp" handle:^{
+        LGSwizzViewController *vc = LGSwizzViewController.new;
+        [self.navigationController pushViewController:vc animated:YES];
+    }];
+    [_modelList addObject:swizzTestItem];
     
     LGListItem *swizzDeallocTestItem = [[LGListItem alloc] initWithTitle:@"SwizzDealloc" subtitle:nil content:@"swizz Dealloc" handle:^{
         SwizzDeallocViewController *vc = [mainSB instantiateViewControllerWithIdentifier:@"SwizzDeallocViewController"];

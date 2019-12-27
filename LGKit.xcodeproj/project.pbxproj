@@ -103,8 +103,11 @@
 		CB3D924423B47F5700C99D88 /* LGMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3D923E23B47D0400C99D88 /* LGMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB3D924723B4845100C99D88 /* TestTableViewItem2.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3D924623B4845100C99D88 /* TestTableViewItem2.m */; };
 		CB3D924D23B4851800C99D88 /* TestTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3D924C23B4851800C99D88 /* TestTableViewItem.m */; };
-		CBC5DB7E237BCBEE00A7DFC1 /* NSObject+Attribute.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC5DB7C237BCBEE00A7DFC1 /* NSObject+Attribute.m */; };
-		CBC5DB7F237BCBEE00A7DFC1 /* NSObject+Attribute.h in Headers */ = {isa = PBXBuildFile; fileRef = CBC5DB7D237BCBEE00A7DFC1 /* NSObject+Attribute.h */; };
+		CB604CC323B5B2C400A4BFE4 /* LGSwizzSuperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CB604CC223B5B2C400A4BFE4 /* LGSwizzSuperClass.m */; };
+		CB604CC623B5B2D600A4BFE4 /* LGSwizzSubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CB604CC523B5B2D600A4BFE4 /* LGSwizzSubClass.m */; };
+		CB604CC923B5B32700A4BFE4 /* LGSwizzViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB604CC823B5B32700A4BFE4 /* LGSwizzViewController.m */; };
+		CBC5DB7E237BCBEE00A7DFC1 /* NSObject+LGAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC5DB7C237BCBEE00A7DFC1 /* NSObject+LGAttribute.m */; };
+		CBC5DB7F237BCBEE00A7DFC1 /* NSObject+LGAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = CBC5DB7D237BCBEE00A7DFC1 /* NSObject+LGAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -228,10 +231,16 @@
 		CB3D924623B4845100C99D88 /* TestTableViewItem2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewItem2.m; sourceTree = "<group>"; };
 		CB3D924B23B4851800C99D88 /* TestTableViewItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewItem.h; sourceTree = "<group>"; };
 		CB3D924C23B4851800C99D88 /* TestTableViewItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewItem.m; sourceTree = "<group>"; };
+		CB604CC123B5B2C400A4BFE4 /* LGSwizzSuperClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSwizzSuperClass.h; sourceTree = "<group>"; };
+		CB604CC223B5B2C400A4BFE4 /* LGSwizzSuperClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSwizzSuperClass.m; sourceTree = "<group>"; };
+		CB604CC423B5B2D600A4BFE4 /* LGSwizzSubClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSwizzSubClass.h; sourceTree = "<group>"; };
+		CB604CC523B5B2D600A4BFE4 /* LGSwizzSubClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSwizzSubClass.m; sourceTree = "<group>"; };
+		CB604CC723B5B32700A4BFE4 /* LGSwizzViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSwizzViewController.h; sourceTree = "<group>"; };
+		CB604CC823B5B32700A4BFE4 /* LGSwizzViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSwizzViewController.m; sourceTree = "<group>"; };
 		CBC5DB76237A9E6300A7DFC1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CBC5DB78237A9E6D00A7DFC1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		CBC5DB7C237BCBEE00A7DFC1 /* NSObject+Attribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Attribute.m"; sourceTree = "<group>"; };
-		CBC5DB7D237BCBEE00A7DFC1 /* NSObject+Attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Attribute.h"; sourceTree = "<group>"; };
+		CBC5DB7C237BCBEE00A7DFC1 /* NSObject+LGAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LGAttribute.m"; sourceTree = "<group>"; };
+		CBC5DB7D237BCBEE00A7DFC1 /* NSObject+LGAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LGAttribute.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -366,8 +375,8 @@
 		814C4A5F202AF6A2007F54CB /* LGNSObject */ = {
 			isa = PBXGroup;
 			children = (
-				CBC5DB7D237BCBEE00A7DFC1 /* NSObject+Attribute.h */,
-				CBC5DB7C237BCBEE00A7DFC1 /* NSObject+Attribute.m */,
+				CBC5DB7D237BCBEE00A7DFC1 /* NSObject+LGAttribute.h */,
+				CBC5DB7C237BCBEE00A7DFC1 /* NSObject+LGAttribute.m */,
 				814C4A69202AF6A2007F54CB /* NSObject+LGModel.h */,
 				814C4A60202AF6A2007F54CB /* NSObject+LGModel.m */,
 				814C4A68202AF6A2007F54CB /* NSObject+LGEasyKVO.h */,
@@ -483,7 +492,6 @@
 			isa = PBXGroup;
 			children = (
 				CB3D922C23B45FBD00C99D88 /* Examples */,
-				814C4B07202AFEB2007F54CB /* Config.xcconfig */,
 				814C4AF7202AFEA2007F54CB /* Model */,
 				814C4AD9202AFE49007F54CB /* AppDelegate.h */,
 				814C4ADA202AFE49007F54CB /* AppDelegate.m */,
@@ -494,6 +502,7 @@
 				814C4AE4202AFE49007F54CB /* LaunchScreen.storyboard */,
 				814C4AE7202AFE49007F54CB /* Info.plist */,
 				814C4AE8202AFE49007F54CB /* main.m */,
+				814C4B07202AFEB2007F54CB /* Config.xcconfig */,
 			);
 			path = LGKitDemo;
 			sourceTree = "<group>";
@@ -544,6 +553,7 @@
 		CB3D922C23B45FBD00C99D88 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				CB604CC023B49EE400A4BFE4 /* Swizz */,
 				814C4AFA202AFEA2007F54CB /* SwizzDealloc */,
 				814C4AF2202AFEA2007F54CB /* EasyKVO */,
 				CB3D922B23B45F9300C99D88 /* UITableView */,
@@ -586,6 +596,19 @@
 			path = item2;
 			sourceTree = "<group>";
 		};
+		CB604CC023B49EE400A4BFE4 /* Swizz */ = {
+			isa = PBXGroup;
+			children = (
+				CB604CC123B5B2C400A4BFE4 /* LGSwizzSuperClass.h */,
+				CB604CC223B5B2C400A4BFE4 /* LGSwizzSuperClass.m */,
+				CB604CC423B5B2D600A4BFE4 /* LGSwizzSubClass.h */,
+				CB604CC523B5B2D600A4BFE4 /* LGSwizzSubClass.m */,
+				CB604CC723B5B32700A4BFE4 /* LGSwizzViewController.h */,
+				CB604CC823B5B32700A4BFE4 /* LGSwizzViewController.m */,
+			);
+			path = Swizz;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -595,7 +618,7 @@
 			files = (
 				814C4AAB202AF6A2007F54CB /* NSObject+LGSwizzDealloc.h in Headers */,
 				814C4AB3202AF6A2007F54CB /* UIColor+LG.h in Headers */,
-				CBC5DB7F237BCBEE00A7DFC1 /* NSObject+Attribute.h in Headers */,
+				CBC5DB7F237BCBEE00A7DFC1 /* NSObject+LGAttribute.h in Headers */,
 				814C4AC8202AF6A2007F54CB /* UIView+LGAutoLayout.h in Headers */,
 				814C4AA5202AF6A2007F54CB /* NSObject+LGPerformBlockAfterDelay.h in Headers */,
 				814C4A44202AF536007F54CB /* LGKit.h in Headers */,
@@ -803,7 +826,7 @@
 				814C4AAA202AF6A2007F54CB /* NSObject+LGPerformBlockAfterDelay.m in Sources */,
 				814C4AC6202AF6A2007F54CB /* UIView+LGAutoLayout.m in Sources */,
 				814C4AB9202AF6A2007F54CB /* UIImage+LGScale.m in Sources */,
-				CBC5DB7E237BCBEE00A7DFC1 /* NSObject+Attribute.m in Sources */,
+				CBC5DB7E237BCBEE00A7DFC1 /* NSObject+LGAttribute.m in Sources */,
 				814C4A97202AF6A2007F54CB /* NSString+LGFormat.m in Sources */,
 				814C4AB4202AF6A2007F54CB /* UIButton+LG.m in Sources */,
 				814C4AB6202AF6A2007F54CB /* UIImage+LGColor.m in Sources */,
@@ -826,6 +849,7 @@
 			files = (
 				814C4B05202AFEA3007F54CB /* SubSwizzTestObj.m in Sources */,
 				CB3D924D23B4851800C99D88 /* TestTableViewItem.m in Sources */,
+				CB604CC623B5B2D600A4BFE4 /* LGSwizzSubClass.m in Sources */,
 				CB3D923223B460A900C99D88 /* TestTableViewTableViewCell.m in Sources */,
 				814C4B01202AFEA3007F54CB /* EasyKVOTestObj.m in Sources */,
 				CB3D924723B4845100C99D88 /* TestTableViewItem2.m in Sources */,
@@ -837,6 +861,8 @@
 				814C4B04202AFEA3007F54CB /* SwizzTestObject.m in Sources */,
 				CB3D923A23B4622A00C99D88 /* TestTableViewItem1.m in Sources */,
 				814C4B02202AFEA3007F54CB /* EasyKVOTestViewController.m in Sources */,
+				CB604CC323B5B2C400A4BFE4 /* LGSwizzSuperClass.m in Sources */,
+				CB604CC923B5B32700A4BFE4 /* LGSwizzViewController.m in Sources */,
 				814C4B06202AFEA3007F54CB /* SwizzDeallocViewController.m in Sources */,
 				814C4ADB202AFE49007F54CB /* AppDelegate.m in Sources */,
 			);
