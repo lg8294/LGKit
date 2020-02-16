@@ -31,7 +31,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UICollectionView (LGOther)
 
+/// 重用一个 cell，如果 cellClass 未注册，会自动注册
+/// @param cellClass  cell 类
+/// @param indexPath indexPath description
 - (nullable __kindof UICollectionViewCell *)lg_dequeueReusableCellWithClass:(Class)cellClass forIndexPath:(NSIndexPath *)indexPath;
+
+/// 重用一个 SupplementaryView，如果未注册，会自动注册
+/// @param elementKind elementKind description
+/// @param viewClass viewClass description
+/// @param indexPath indexPath description
+- (nullable __kindof UICollectionReusableView *)lg_dequeueReusableSupplementaryViewOfKind:(NSString *)elementKind withClass:(Class)viewClass forIndexPath:(NSIndexPath *)indexPath;
 
 @end
 
