@@ -11,9 +11,6 @@
 NS_ASSUME_NONNULL_BEGIN
 @interface UIButton (LG)
 
-///设置图片
-- (void)lg_setImage:(UIImage *)image placeholderImage:(UIImage *)placeholder forState:(UIControlState)state;
-
 ///设置背景色
 - (void)lg_setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state;
 - (nullable UIColor *)lg_backgroundColorForState:(UIControlState)state;

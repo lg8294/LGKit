@@ -12,5 +12,4 @@
 
 - (void)lg_addCorner:(CGFloat)radius;
 
-- (void)lg_setImage:(UIImage *)image placeholderImage:(UIImage *)placeholder;
 @end

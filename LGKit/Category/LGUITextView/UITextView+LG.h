@@ -10,12 +10,10 @@
 
 @interface UITextView (LG)
 
-- (void)setPlaceholder:(NSString *)placeholder;
-- (NSString *)getPlaceholder;
+@property(nonatomic) NSString *lg_placeholder;
 
-- (void)setAttributedPlaceholder:(NSAttributedString *)attributedPlaceholder;
-- (NSAttributedString *)getAttributedPlaceholder;
+@property(nonatomic) NSAttributedString *lg_attributedPlaceholder;
 
-- (UILabel *)getPlaceholderLabel;
+@property(nonatomic,readonly) UILabel *lg_placeholderLabel;
 
 @end

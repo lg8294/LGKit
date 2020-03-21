@@ -13,7 +13,7 @@
 //将UIView转成UIImage
 + (UIImage *)lg_imageFromView:(UIView *)view
 {
-    UIGraphicsBeginImageContextWithOptions(view.bounds.size, NO, view.layer.contentsScale);
+    UIGraphicsBeginImageContextWithOptions(view.bounds.size, NO, UIScreen.mainScreen.scale);
     [view.layer renderInContext:UIGraphicsGetCurrentContext()];
     UIImage *image=UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();

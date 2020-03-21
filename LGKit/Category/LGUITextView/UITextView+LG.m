@@ -9,48 +9,40 @@
 #import "UITextView+LG.h"
 #import <objc/runtime.h>
 
-static char PlaceholderKey;
-static char AttributedPlaceholderKey;
-static char PlaceholderLabelKey;
-
 @implementation UITextView (LG)
 
-#pragma mark - runtime
-
-- (void)setPlaceholder:(NSString *)placeholder {
-    objc_setAssociatedObject(self, &PlaceholderKey, placeholder, OBJC_ASSOCIATION_COPY_NONATOMIC);
+#pragma mark - lg_placeholder
+- (void)setLg_placeholder:(NSString *)lg_placeholder {
+    objc_setAssociatedObject(self, _cmd, lg_placeholder, OBJC_ASSOCIATION_COPY_NONATOMIC);
     
-    [[self getPlaceholderLabel] setText:placeholder];
-    [[self getPlaceholderLabel] sizeToFit];
+    [self.lg_placeholderLabel setText:lg_placeholder];
+    [self.lg_placeholderLabel sizeToFit];
 }
 
-- (NSString *)getPlaceholder {
-    return objc_getAssociatedObject(self, &PlaceholderKey);
+- (NSString *)lg_placeholder {
+    return objc_getAssociatedObject(self, @selector(setLg_placeholder:));
+}
+#pragma mark - lg_placeholder
+- (void)setLg_attributedPlaceholder:(NSAttributedString *)lg_attributedPlaceholder {
+    objc_setAssociatedObject(self, _cmd, lg_attributedPlaceholder, OBJC_ASSOCIATION_COPY_NONATOMIC);
+    [self.lg_placeholderLabel setAttributedText:lg_attributedPlaceholder];
+    [self.lg_placeholderLabel sizeToFit];
 }
 
-- (void)setAttributedPlaceholder:(NSAttributedString *)attributedPlaceholder {
-    objc_setAssociatedObject(self, &AttributedPlaceholderKey, attributedPlaceholder, OBJC_ASSOCIATION_COPY_NONATOMIC);
-    [[self getPlaceholderLabel] setAttributedText:attributedPlaceholder];
-    [[self getPlaceholderLabel] sizeToFit];
+- (NSAttributedString *)lg_attributedPlaceholder {
+    return objc_getAssociatedObject(self, @selector(setLg_attributedPlaceholder:));
 }
 
-- (NSAttributedString *)getAttributedPlaceholder {
-    return objc_getAssociatedObject(self, &AttributedPlaceholderKey);
-}
-
-//- (void)setPlaceholderLabel:(UILabel *)placeholderLabel {
-//    objc_setAssociatedObject(self, &PlaceholderLabelKey, placeholderLabel, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-//}
-
-- (UILabel *)getPlaceholderLabel {
-    UILabel * label = objc_getAssociatedObject(self, &PlaceholderLabelKey);
+#pragma mark - lg_placeholderLabel
+- (UILabel *)lg_placeholderLabel {
+    UILabel * label = objc_getAssociatedObject(self, _cmd);
     if (!label) {
         label = [UILabel new];
         [label setNumberOfLines:0];
         [label setTextColor:[UIColor colorWithWhite:0.7 alpha:1]];
         [label setFont:self.font];
         
-        objc_setAssociatedObject(self, &PlaceholderLabelKey, label, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+        objc_setAssociatedObject(self, _cmd, label, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
         [self addSubview:label];
         
         
@@ -73,27 +65,30 @@ static char PlaceholderLabelKey;
     return label;
 }
 
+#pragma mark -
+
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context {
     
     if (object == self) {
         if ([keyPath isEqualToString:@"text"]) {
-            [[self getPlaceholderLabel] setHidden:(self.text.length > 0)];
+            [self.lg_placeholderLabel setHidden:(self.text.length > 0)];
         } else if ([keyPath isEqualToString:@"font"]) {
-            [[self getPlaceholderLabel] setFont:self.font];
+            [self.lg_placeholderLabel setFont:self.font];
         }
     }
 }
+
 - (void)receiveTextDidChange:(NSNotification *)notification {
-    //NSLog(@"%@", notification);
+    NSLog(@"%@", notification);
     UITextView * textView = [notification object];
-    [[textView getPlaceholderLabel] setHidden:(textView.text.length > 0)];
+    [textView.lg_placeholderLabel setHidden:(textView.text.length > 0)];
 }
 
-- (void)dealloc {
-    //    NSLog(@"textView dealloc");
-    [[NSNotificationCenter defaultCenter] removeObserver:self];
-    [self removeObserver:self forKeyPath:@"text"];
-    [self removeObserver:self forKeyPath:@"font"];
-}
+//- (void)dealloc {
+//    //    NSLog(@"textView dealloc");
+//    [[NSNotificationCenter defaultCenter] removeObserver:self];
+//    [self removeObserver:self forKeyPath:@"text"];
+//    [self removeObserver:self forKeyPath:@"font"];
+//}
 
 @end

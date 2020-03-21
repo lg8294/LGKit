@@ -16,27 +16,6 @@ static const char BackgroundColorForStateKey;
 
 @implementation UIButton (LG)
 
-- (void)lg_setImage:(UIImage *)image placeholderImage:(UIImage *)placeholder forState:(UIControlState)state {
-    if (image) {
-        [self setImage:image forState:state];
-    } else {
-        [self setImage:placeholder forState:state];
-    }
-}
-
-//- (void)lg_setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state {
-//    
-//    CGRect rect=CGRectMake(0,0, 1, 1);
-//    UIGraphicsBeginImageContextWithOptions(rect.size, YES, [UIScreen mainScreen].scale);
-//    CGContextRef context = UIGraphicsGetCurrentContext();
-//    CGContextSetFillColorWithColor(context, [backgroundColor CGColor]);
-//    CGContextFillRect(context, rect);
-//    UIImage *backImage = UIGraphicsGetImageFromCurrentImageContext();
-//    UIGraphicsEndImageContext();
-//    
-//    [self setBackgroundImage:backImage forState:state];
-//}
-
 - (void)lg_setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state {
     NSString * key = [self keyForState:state];
     
@@ -52,10 +31,6 @@ static const char BackgroundColorForStateKey;
     [self lg_exchangeInstanceOriginSel:@selector(setHighlighted:) customSel:@selector(lg_setHighlighted:)];
     [self lg_exchangeInstanceOriginSel:@selector(setSelected:) customSel:@selector(lg_setSelected:)];
     [self lg_exchangeInstanceOriginSel:@selector(setEnabled:) customSel:@selector(lg_setEnabled:)];
-    
-//    [self lg_exchangeInstanceMethod1:@selector(setHighlighted:) method2:@selector(lg_setHighlighted:)];
-//    [self lg_exchangeInstanceMethod1:@selector(setSelected:) method2:@selector(lg_setSelected:)];
-//    [self lg_exchangeInstanceMethod1:@selector(setEnabled:) method2:@selector(lg_setEnabled:)];
 }
 
 - (NSString *)keyForState:(UIControlState)state {

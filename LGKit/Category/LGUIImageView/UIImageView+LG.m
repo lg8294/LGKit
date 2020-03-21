@@ -32,11 +32,4 @@
     return output;
 }
 
-- (void)lg_setImage:(UIImage *)image placeholderImage:(UIImage *)placeholder {
-    if (image) {
-        [self setImage:image];
-    } else {
-        [self setImage:placeholder];
-    }
-}
 @end
