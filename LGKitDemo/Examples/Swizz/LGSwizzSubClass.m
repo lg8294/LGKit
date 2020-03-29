@@ -10,6 +10,7 @@
 #import <LGKit/NSObject+LGRuntime.h>
 
 @implementation LGSwizzSubClass
+
 + (void)initialize {
     [self lg_exchangeInstanceOriginSel:@selector(abc) customSel:@selector(test)];
 }

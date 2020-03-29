@@ -9,27 +9,11 @@
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
-@interface UICollectionView (LGCell)
 
-- (void)lg_registerCellWithClass:(Class)cellClass;
-- (void)lg_registerClass:(Class)viewClass forSupplementaryViewOfKind:(NSString *)elementKind;
-
+@interface UICollectionView (LGBase)
 @end
 
-@interface UICollectionView (LGNibCell)
-
-/**
- *  注册一个nib类型的cell,reuseIdentifier为cell的类名
- *
- *  @param cellClass cell类
- */
-- (void)lg_registerNibCellWithClass:(Class)cellClass;
-- (void)lg_registerNibClass:(Class)viewClass forSupplementaryViewOfKind:(NSString *)elementKind;
-
-
-@end
-
-@interface UICollectionView (LGOther)
+@interface UICollectionView (LGDequeueReusable)
 
 /// 重用一个 cell，如果 cellClass 未注册，会自动注册
 /// @param cellClass  cell 类

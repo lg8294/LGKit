@@ -63,51 +63,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@implementation UITableView (LGCell)
-
-- (void)lg_registerCellWithClass:(Class)cellClass
-{
-    NSString * cellName = NSStringFromClass([cellClass class]);
-    if (![[self lg_reusableCellIdentifier] containsObject:cellName]) {
-        [self registerClass:cellClass forCellReuseIdentifier:cellName];
-        [[self lg_reusableCellIdentifier] addObject:cellName];
-    }
-}
-
-- (void)lg_registerHeaderFooterViewWithClass:(Class)headerFooterViewClass
-{
-    NSString * HeaderFooterViewName = NSStringFromClass([headerFooterViewClass class]);
-    if (![[self lg_reuseableHeaderOrFooterIdentifier] containsObject:HeaderFooterViewName]) {
-        [self registerClass:headerFooterViewClass forHeaderFooterViewReuseIdentifier:HeaderFooterViewName];
-        [[self lg_reuseableHeaderOrFooterIdentifier] addObject:HeaderFooterViewName];
-    }
-}
-
-@end
-
-@implementation UITableView (LGNibCell)
-
-- (void)lg_registerNibCellWithClass:(Class)cellClass
-{
-    NSString * cellName = NSStringFromClass([cellClass class]);
-    if (![[self lg_reusableCellIdentifier] containsObject:cellName]) {
-        [self registerNib:[UINib nibWithNibName:cellName bundle:[NSBundle bundleWithIdentifier:cellName]] forCellReuseIdentifier:cellName];
-        [[self lg_reusableCellIdentifier] addObject:cellName];
-    }
-}
-
-- (void)lg_registerNibHeaderFooterViewWithClass:(Class)headerFooterViewClass
-{
-    NSString * HeaderFooterViewName = NSStringFromClass([headerFooterViewClass class]);
-    if (![[self lg_reuseableHeaderOrFooterIdentifier] containsObject:HeaderFooterViewName]) {
-        [self registerNib:[UINib nibWithNibName:HeaderFooterViewName bundle:[NSBundle bundleWithIdentifier:HeaderFooterViewName]] forHeaderFooterViewReuseIdentifier:HeaderFooterViewName];
-        [[self lg_reuseableHeaderOrFooterIdentifier] addObject:HeaderFooterViewName];
-    }
-}
-
-@end
-
-@implementation UITableView (Other)
+@implementation UITableView (LGDequeueReusable)
 
 - (nullable __kindof UITableViewCell *)lg_dequeueReusableCellWithClass:(Class)cellClass
 {

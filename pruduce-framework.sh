@@ -1,10 +1,8 @@
 #!/bin/sh
 
 #  Script.sh
-#  ArrcenKit
 #
-#  Created by iOS on 16/9/23.
-#  Copyright © 2016年 iOS. All rights reserved.
+#  Created by lg on 16/9/23.
 
 # 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME
 # 例如: FMK_NAME = "MyFramework"

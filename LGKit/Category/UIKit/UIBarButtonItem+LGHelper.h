@@ -1,5 +1,5 @@
 //
-//  UIBarButtonItem+PIXHelper.h
+//  UIBarButtonItem+LGHelper.h
 //  Photon
 //
 //  Created by lg on 2020/2/11.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIBarButtonItem (PIXHelper)
+@interface UIBarButtonItem (LGHelper)
 
 + (UIBarButtonItem *)itemWithImageName:(NSString *)imageName target:(id)target action:(SEL)action;
 

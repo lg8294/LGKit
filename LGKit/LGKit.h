@@ -2,7 +2,7 @@
 //  LGKit.h
 //  LGKit
 //
-//  Created by iOS on 2018/2/7.
+//  Created by lg on 2018/2/7.
 //  Copyright © 2018年 lg. All rights reserved.
 //
 
@@ -15,6 +15,8 @@ FOUNDATION_EXPORT double LGKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char LGKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <LGKit/PublicHeader.h>
+
+#import <LGKit/LGMacro.h>
 
 #import <LGKit/LGMacro.h>
 
@@ -41,7 +43,6 @@ FOUNDATION_EXPORT const unsigned char LGKitVersionString[];
 #import <LGKit/UIColor+LG.h>
 
 // UIImage
-#import <LGKit/UIImage+LG.h>
 #import <LGKit/UIImage+LGColor.h>
 #import <LGKit/UIImage+LGScale.h>
 #import <LGKit/UIImage+LGView.h>
@@ -50,7 +51,6 @@ FOUNDATION_EXPORT const unsigned char LGKitVersionString[];
 #import <LGKit/CAShapeLayer+LG.h>
 
 // UIView
-#import <LGKit/UIView+LG.h>
 #import <LGKit/UIView+LGAutoLayout.h>
 
 // UIButton
@@ -61,8 +61,8 @@ FOUNDATION_EXPORT const unsigned char LGKitVersionString[];
 
 // UIScrollView
 #import <LGKit/UIScrollView+LGScreenShot.h>
-#import <LGKit/UICollectionView+LG.h>
 #import <LGKit/UITableView+LG.h>
+#import <LGKit/UICollectionView+LG.h>
 
 // UITextView
 #import <LGKit/UITextView+LG.h>

@@ -1,8 +1,7 @@
 //
 //  NSObject+LGEasyKVO.h
 //
-//  Created by iOS on 2017/11/23.
-//  Copyright © 2017年 arrcencloud. All rights reserved.
+//  Created by lg on 2017/11/23.
 //
 
 #import <Foundation/Foundation.h>

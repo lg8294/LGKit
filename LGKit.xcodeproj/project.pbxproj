@@ -51,11 +51,7 @@
 		814C4AAA202AF6A2007F54CB /* NSObject+LGPerformBlockAfterDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A6A202AF6A2007F54CB /* NSObject+LGPerformBlockAfterDelay.m */; };
 		814C4AAB202AF6A2007F54CB /* NSObject+LGSwizzDealloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A6B202AF6A2007F54CB /* NSObject+LGSwizzDealloc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		814C4AAC202AF6A2007F54CB /* UIScrollView+LGScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A6D202AF6A2007F54CB /* UIScrollView+LGScreenShot.m */; };
-		814C4AAD202AF6A2007F54CB /* UITableView+LG.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A6E202AF6A2007F54CB /* UITableView+LG.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		814C4AAE202AF6A2007F54CB /* UICollectionView+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A6F202AF6A2007F54CB /* UICollectionView+LG.m */; };
 		814C4AAF202AF6A2007F54CB /* UIScrollView+LGScreenShot.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A70202AF6A2007F54CB /* UIScrollView+LGScreenShot.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		814C4AB0202AF6A2007F54CB /* UICollectionView+LG.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A71202AF6A2007F54CB /* UICollectionView+LG.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		814C4AB1202AF6A2007F54CB /* UITableView+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A72202AF6A2007F54CB /* UITableView+LG.m */; };
 		814C4AB2202AF6A2007F54CB /* UIColor+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A74202AF6A2007F54CB /* UIColor+LG.m */; };
 		814C4AB3202AF6A2007F54CB /* UIColor+LG.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C4A75202AF6A2007F54CB /* UIColor+LG.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		814C4AB4202AF6A2007F54CB /* UIButton+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C4A77202AF6A2007F54CB /* UIButton+LG.m */; };
@@ -99,6 +95,21 @@
 		CB3D924423B47F5700C99D88 /* LGMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3D923E23B47D0400C99D88 /* LGMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB3D924723B4845100C99D88 /* TestTableViewItem2.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3D924623B4845100C99D88 /* TestTableViewItem2.m */; };
 		CB3D924D23B4851800C99D88 /* TestTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3D924C23B4851800C99D88 /* TestTableViewItem.m */; };
+		CB4DB3A42430AD4F00F1DBD1 /* UIView+LGRectCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4DB3A22430AD4F00F1DBD1 /* UIView+LGRectCorner.m */; };
+		CB4DB3A52430AD4F00F1DBD1 /* UIView+LGRectCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4DB3A22430AD4F00F1DBD1 /* UIView+LGRectCorner.m */; };
+		CB4DB3A62430AD4F00F1DBD1 /* UIView+LGRectCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4DB3A22430AD4F00F1DBD1 /* UIView+LGRectCorner.m */; };
+		CB4DB3A72430AD4F00F1DBD1 /* UIView+LGRectCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4DB3A32430AD4F00F1DBD1 /* UIView+LGRectCorner.h */; };
+		CB4DB3AC2430AD9500F1DBD1 /* UICollectionView+LG.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4DB3A82430AD8C00F1DBD1 /* UICollectionView+LG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB4DB3AD2430AD9500F1DBD1 /* UITableView+LG.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4DB3A92430AD8D00F1DBD1 /* UITableView+LG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB4DB3AE2430AD9500F1DBD1 /* UITableView+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4DB3AA2430AD9200F1DBD1 /* UITableView+LG.m */; };
+		CB4DB3AF2430AD9500F1DBD1 /* UITableView+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4DB3AA2430AD9200F1DBD1 /* UITableView+LG.m */; };
+		CB4DB3B12430AD9500F1DBD1 /* UICollectionView+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4DB3AB2430AD9500F1DBD1 /* UICollectionView+LG.m */; };
+		CB4DB3B22430AD9500F1DBD1 /* UICollectionView+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4DB3AB2430AD9500F1DBD1 /* UICollectionView+LG.m */; };
+		CB4DB3BF2430D0F200F1DBD1 /* LGTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4DB3BD2430D0F200F1DBD1 /* LGTheme.h */; };
+		CB4DB3C02430D0F200F1DBD1 /* LGTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4DB3BE2430D0F200F1DBD1 /* LGTheme.m */; };
+		CB4DB3C12430D0F200F1DBD1 /* LGTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4DB3BE2430D0F200F1DBD1 /* LGTheme.m */; };
+		CB4DB3C22430D0F200F1DBD1 /* LGTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4DB3BE2430D0F200F1DBD1 /* LGTheme.m */; };
+		CB4DB3C52430D30600F1DBD1 /* Define.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4DB3C42430D30600F1DBD1 /* Define.h */; };
 		CB604CC323B5B2C400A4BFE4 /* LGSwizzSuperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CB604CC223B5B2C400A4BFE4 /* LGSwizzSuperClass.m */; };
 		CB604CC623B5B2D600A4BFE4 /* LGSwizzSubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CB604CC523B5B2D600A4BFE4 /* LGSwizzSubClass.m */; };
 		CB604CC923B5B32700A4BFE4 /* LGSwizzViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB604CC823B5B32700A4BFE4 /* LGSwizzViewController.m */; };
@@ -117,42 +128,30 @@
 		CB688DB02405180B002A7417 /* UIViewController+LGModalStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DAE2405180B002A7417 /* UIViewController+LGModalStyle.m */; };
 		CB688DB12405180B002A7417 /* UIViewController+LGModalStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DAE2405180B002A7417 /* UIViewController+LGModalStyle.m */; };
 		CB688DB22405180B002A7417 /* UIViewController+LGModalStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DAE2405180B002A7417 /* UIViewController+LGModalStyle.m */; };
-		CB688DB52405181E002A7417 /* UIBarButtonItem+PIXHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CB688DB32405181D002A7417 /* UIBarButtonItem+PIXHelper.h */; };
-		CB688DB62405181E002A7417 /* UIBarButtonItem+PIXHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DB42405181D002A7417 /* UIBarButtonItem+PIXHelper.m */; };
-		CB688DB72405181E002A7417 /* UIBarButtonItem+PIXHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DB42405181D002A7417 /* UIBarButtonItem+PIXHelper.m */; };
-		CB688DB82405181E002A7417 /* UIBarButtonItem+PIXHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DB42405181D002A7417 /* UIBarButtonItem+PIXHelper.m */; };
-		CB688DBC24051845002A7417 /* UIView+PIXLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = CB688DBA24051845002A7417 /* UIView+PIXLoading.h */; };
-		CB688DBD24051845002A7417 /* UIView+PIXLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DBB24051845002A7417 /* UIView+PIXLoading.m */; };
-		CB688DBE24051845002A7417 /* UIView+PIXLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DBB24051845002A7417 /* UIView+PIXLoading.m */; };
-		CB688DBF24051845002A7417 /* UIView+PIXLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DBB24051845002A7417 /* UIView+PIXLoading.m */; };
-		CB688DC724051859002A7417 /* PIXPhotoDownLoadManage.h in Headers */ = {isa = PBXBuildFile; fileRef = CB688DC124051859002A7417 /* PIXPhotoDownLoadManage.h */; };
-		CB688DC824051859002A7417 /* PIXDownloadAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = CB688DC224051859002A7417 /* PIXDownloadAlert.h */; };
-		CB688DC924051859002A7417 /* PIXPhotoDownloadItem.h in Headers */ = {isa = PBXBuildFile; fileRef = CB688DC324051859002A7417 /* PIXPhotoDownloadItem.h */; };
-		CB688DCA24051859002A7417 /* PIXPhotoDownLoadManage.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DC424051859002A7417 /* PIXPhotoDownLoadManage.m */; };
-		CB688DCB24051859002A7417 /* PIXPhotoDownLoadManage.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DC424051859002A7417 /* PIXPhotoDownLoadManage.m */; };
-		CB688DCC24051859002A7417 /* PIXPhotoDownLoadManage.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DC424051859002A7417 /* PIXPhotoDownLoadManage.m */; };
-		CB688DCD24051859002A7417 /* PIXPhotoDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DC524051859002A7417 /* PIXPhotoDownloadItem.m */; };
-		CB688DCE24051859002A7417 /* PIXPhotoDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DC524051859002A7417 /* PIXPhotoDownloadItem.m */; };
-		CB688DCF24051859002A7417 /* PIXPhotoDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DC524051859002A7417 /* PIXPhotoDownloadItem.m */; };
-		CB688DD024051859002A7417 /* PIXDownloadAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DC624051859002A7417 /* PIXDownloadAlert.m */; };
-		CB688DD124051859002A7417 /* PIXDownloadAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DC624051859002A7417 /* PIXDownloadAlert.m */; };
-		CB688DD224051859002A7417 /* PIXDownloadAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DC624051859002A7417 /* PIXDownloadAlert.m */; };
-		CB688DD62405186C002A7417 /* UIViewController+PIXNoNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DD42405186C002A7417 /* UIViewController+PIXNoNetwork.m */; };
-		CB688DD72405186C002A7417 /* UIViewController+PIXNoNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DD42405186C002A7417 /* UIViewController+PIXNoNetwork.m */; };
-		CB688DD82405186C002A7417 /* UIViewController+PIXNoNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DD42405186C002A7417 /* UIViewController+PIXNoNetwork.m */; };
-		CB688DD92405186C002A7417 /* UIViewController+PIXNoNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = CB688DD52405186C002A7417 /* UIViewController+PIXNoNetwork.h */; };
-		CB688DDD24051872002A7417 /* UIView+PIXNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DDB24051872002A7417 /* UIView+PIXNoDataView.m */; };
-		CB688DDE24051872002A7417 /* UIView+PIXNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DDB24051872002A7417 /* UIView+PIXNoDataView.m */; };
-		CB688DDF24051872002A7417 /* UIView+PIXNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DDB24051872002A7417 /* UIView+PIXNoDataView.m */; };
-		CB688DE024051872002A7417 /* UIView+PIXNoDataView.h in Headers */ = {isa = PBXBuildFile; fileRef = CB688DDC24051872002A7417 /* UIView+PIXNoDataView.h */; };
-		CB688DE424051885002A7417 /* PIXNavigationBarItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DE224051885002A7417 /* PIXNavigationBarItemView.m */; };
-		CB688DE524051885002A7417 /* PIXNavigationBarItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DE224051885002A7417 /* PIXNavigationBarItemView.m */; };
-		CB688DE624051885002A7417 /* PIXNavigationBarItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DE224051885002A7417 /* PIXNavigationBarItemView.m */; };
-		CB688DE724051885002A7417 /* PIXNavigationBarItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = CB688DE324051885002A7417 /* PIXNavigationBarItemView.h */; };
-		CB688DEB24051890002A7417 /* PIXNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DE924051890002A7417 /* PIXNavigationBar.m */; };
-		CB688DEC24051890002A7417 /* PIXNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DE924051890002A7417 /* PIXNavigationBar.m */; };
-		CB688DED24051890002A7417 /* PIXNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DE924051890002A7417 /* PIXNavigationBar.m */; };
-		CB688DEE24051890002A7417 /* PIXNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = CB688DEA24051890002A7417 /* PIXNavigationBar.h */; };
+		CB688DB52405181E002A7417 /* UIBarButtonItem+LGHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CB688DB32405181D002A7417 /* UIBarButtonItem+LGHelper.h */; };
+		CB688DB62405181E002A7417 /* UIBarButtonItem+LGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DB42405181D002A7417 /* UIBarButtonItem+LGHelper.m */; };
+		CB688DB72405181E002A7417 /* UIBarButtonItem+LGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DB42405181D002A7417 /* UIBarButtonItem+LGHelper.m */; };
+		CB688DB82405181E002A7417 /* UIBarButtonItem+LGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DB42405181D002A7417 /* UIBarButtonItem+LGHelper.m */; };
+		CB688DBC24051845002A7417 /* UIView+LGLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = CB688DBA24051845002A7417 /* UIView+LGLoadingView.h */; };
+		CB688DBD24051845002A7417 /* UIView+LGLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DBB24051845002A7417 /* UIView+LGLoadingView.m */; };
+		CB688DBE24051845002A7417 /* UIView+LGLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DBB24051845002A7417 /* UIView+LGLoadingView.m */; };
+		CB688DBF24051845002A7417 /* UIView+LGLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DBB24051845002A7417 /* UIView+LGLoadingView.m */; };
+		CB688DD62405186C002A7417 /* UIViewController+LGNoNetworkView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DD42405186C002A7417 /* UIViewController+LGNoNetworkView.m */; };
+		CB688DD72405186C002A7417 /* UIViewController+LGNoNetworkView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DD42405186C002A7417 /* UIViewController+LGNoNetworkView.m */; };
+		CB688DD82405186C002A7417 /* UIViewController+LGNoNetworkView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DD42405186C002A7417 /* UIViewController+LGNoNetworkView.m */; };
+		CB688DD92405186C002A7417 /* UIViewController+LGNoNetworkView.h in Headers */ = {isa = PBXBuildFile; fileRef = CB688DD52405186C002A7417 /* UIViewController+LGNoNetworkView.h */; };
+		CB688DDD24051872002A7417 /* UIView+LGNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DDB24051872002A7417 /* UIView+LGNoDataView.m */; };
+		CB688DDE24051872002A7417 /* UIView+LGNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DDB24051872002A7417 /* UIView+LGNoDataView.m */; };
+		CB688DDF24051872002A7417 /* UIView+LGNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DDB24051872002A7417 /* UIView+LGNoDataView.m */; };
+		CB688DE024051872002A7417 /* UIView+LGNoDataView.h in Headers */ = {isa = PBXBuildFile; fileRef = CB688DDC24051872002A7417 /* UIView+LGNoDataView.h */; };
+		CB688DE424051885002A7417 /* LGNavigationBarItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DE224051885002A7417 /* LGNavigationBarItemView.m */; };
+		CB688DE524051885002A7417 /* LGNavigationBarItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DE224051885002A7417 /* LGNavigationBarItemView.m */; };
+		CB688DE624051885002A7417 /* LGNavigationBarItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DE224051885002A7417 /* LGNavigationBarItemView.m */; };
+		CB688DE724051885002A7417 /* LGNavigationBarItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = CB688DE324051885002A7417 /* LGNavigationBarItemView.h */; };
+		CB688DEB24051890002A7417 /* LGNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DE924051890002A7417 /* LGNavigationBar.m */; };
+		CB688DEC24051890002A7417 /* LGNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DE924051890002A7417 /* LGNavigationBar.m */; };
+		CB688DED24051890002A7417 /* LGNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CB688DE924051890002A7417 /* LGNavigationBar.m */; };
+		CB688DEE24051890002A7417 /* LGNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = CB688DEA24051890002A7417 /* LGNavigationBar.h */; };
 		CBC5DB7E237BCBEE00A7DFC1 /* NSObject+LGAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC5DB7C237BCBEE00A7DFC1 /* NSObject+LGAttribute.m */; };
 		CBC5DB7F237BCBEE00A7DFC1 /* NSObject+LGAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = CBC5DB7D237BCBEE00A7DFC1 /* NSObject+LGAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBFDEBB923FE1DE50019DE9E /* UITextField+PlaceholderLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = CBFDEBB723FE1DE50019DE9E /* UITextField+PlaceholderLabel.h */; };
@@ -211,11 +210,7 @@
 		814C4A6A202AF6A2007F54CB /* NSObject+LGPerformBlockAfterDelay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LGPerformBlockAfterDelay.m"; sourceTree = "<group>"; };
 		814C4A6B202AF6A2007F54CB /* NSObject+LGSwizzDealloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LGSwizzDealloc.h"; sourceTree = "<group>"; };
 		814C4A6D202AF6A2007F54CB /* UIScrollView+LGScreenShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LGScreenShot.m"; sourceTree = "<group>"; };
-		814C4A6E202AF6A2007F54CB /* UITableView+LG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LG.h"; sourceTree = "<group>"; };
-		814C4A6F202AF6A2007F54CB /* UICollectionView+LG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+LG.m"; sourceTree = "<group>"; };
 		814C4A70202AF6A2007F54CB /* UIScrollView+LGScreenShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LGScreenShot.h"; sourceTree = "<group>"; };
-		814C4A71202AF6A2007F54CB /* UICollectionView+LG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+LG.h"; sourceTree = "<group>"; };
-		814C4A72202AF6A2007F54CB /* UITableView+LG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LG.m"; sourceTree = "<group>"; };
 		814C4A74202AF6A2007F54CB /* UIColor+LG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LG.m"; sourceTree = "<group>"; };
 		814C4A75202AF6A2007F54CB /* UIColor+LG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LG.h"; sourceTree = "<group>"; };
 		814C4A77202AF6A2007F54CB /* UIButton+LG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LG.m"; sourceTree = "<group>"; };
@@ -277,6 +272,15 @@
 		CB3D924623B4845100C99D88 /* TestTableViewItem2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewItem2.m; sourceTree = "<group>"; };
 		CB3D924B23B4851800C99D88 /* TestTableViewItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewItem.h; sourceTree = "<group>"; };
 		CB3D924C23B4851800C99D88 /* TestTableViewItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewItem.m; sourceTree = "<group>"; };
+		CB4DB3A22430AD4F00F1DBD1 /* UIView+LGRectCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LGRectCorner.m"; sourceTree = "<group>"; };
+		CB4DB3A32430AD4F00F1DBD1 /* UIView+LGRectCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LGRectCorner.h"; sourceTree = "<group>"; };
+		CB4DB3A82430AD8C00F1DBD1 /* UICollectionView+LG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+LG.h"; sourceTree = "<group>"; };
+		CB4DB3A92430AD8D00F1DBD1 /* UITableView+LG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LG.h"; sourceTree = "<group>"; };
+		CB4DB3AA2430AD9200F1DBD1 /* UITableView+LG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LG.m"; sourceTree = "<group>"; };
+		CB4DB3AB2430AD9500F1DBD1 /* UICollectionView+LG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+LG.m"; sourceTree = "<group>"; };
+		CB4DB3BD2430D0F200F1DBD1 /* LGTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTheme.h; sourceTree = "<group>"; };
+		CB4DB3BE2430D0F200F1DBD1 /* LGTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTheme.m; sourceTree = "<group>"; };
+		CB4DB3C42430D30600F1DBD1 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		CB604CC123B5B2C400A4BFE4 /* LGSwizzSuperClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSwizzSuperClass.h; sourceTree = "<group>"; };
 		CB604CC223B5B2C400A4BFE4 /* LGSwizzSuperClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSwizzSuperClass.m; sourceTree = "<group>"; };
 		CB604CC423B5B2D600A4BFE4 /* LGSwizzSubClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSwizzSubClass.h; sourceTree = "<group>"; };
@@ -291,24 +295,18 @@
 		CB688DA8240517FF002A7417 /* UIViewController+LGStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LGStatusBar.h"; sourceTree = "<group>"; };
 		CB688DAD2405180B002A7417 /* UIViewController+LGModalStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LGModalStyle.h"; sourceTree = "<group>"; };
 		CB688DAE2405180B002A7417 /* UIViewController+LGModalStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LGModalStyle.m"; sourceTree = "<group>"; };
-		CB688DB32405181D002A7417 /* UIBarButtonItem+PIXHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+PIXHelper.h"; sourceTree = "<group>"; };
-		CB688DB42405181D002A7417 /* UIBarButtonItem+PIXHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+PIXHelper.m"; sourceTree = "<group>"; };
-		CB688DBA24051845002A7417 /* UIView+PIXLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PIXLoading.h"; sourceTree = "<group>"; };
-		CB688DBB24051845002A7417 /* UIView+PIXLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PIXLoading.m"; sourceTree = "<group>"; };
-		CB688DC124051859002A7417 /* PIXPhotoDownLoadManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIXPhotoDownLoadManage.h; sourceTree = "<group>"; };
-		CB688DC224051859002A7417 /* PIXDownloadAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIXDownloadAlert.h; sourceTree = "<group>"; };
-		CB688DC324051859002A7417 /* PIXPhotoDownloadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIXPhotoDownloadItem.h; sourceTree = "<group>"; };
-		CB688DC424051859002A7417 /* PIXPhotoDownLoadManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIXPhotoDownLoadManage.m; sourceTree = "<group>"; };
-		CB688DC524051859002A7417 /* PIXPhotoDownloadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIXPhotoDownloadItem.m; sourceTree = "<group>"; };
-		CB688DC624051859002A7417 /* PIXDownloadAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIXDownloadAlert.m; sourceTree = "<group>"; };
-		CB688DD42405186C002A7417 /* UIViewController+PIXNoNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PIXNoNetwork.m"; sourceTree = "<group>"; };
-		CB688DD52405186C002A7417 /* UIViewController+PIXNoNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PIXNoNetwork.h"; sourceTree = "<group>"; };
-		CB688DDB24051872002A7417 /* UIView+PIXNoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PIXNoDataView.m"; sourceTree = "<group>"; };
-		CB688DDC24051872002A7417 /* UIView+PIXNoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PIXNoDataView.h"; sourceTree = "<group>"; };
-		CB688DE224051885002A7417 /* PIXNavigationBarItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIXNavigationBarItemView.m; sourceTree = "<group>"; };
-		CB688DE324051885002A7417 /* PIXNavigationBarItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIXNavigationBarItemView.h; sourceTree = "<group>"; };
-		CB688DE924051890002A7417 /* PIXNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIXNavigationBar.m; sourceTree = "<group>"; };
-		CB688DEA24051890002A7417 /* PIXNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIXNavigationBar.h; sourceTree = "<group>"; };
+		CB688DB32405181D002A7417 /* UIBarButtonItem+LGHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+LGHelper.h"; sourceTree = "<group>"; };
+		CB688DB42405181D002A7417 /* UIBarButtonItem+LGHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+LGHelper.m"; sourceTree = "<group>"; };
+		CB688DBA24051845002A7417 /* UIView+LGLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LGLoadingView.h"; sourceTree = "<group>"; };
+		CB688DBB24051845002A7417 /* UIView+LGLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LGLoadingView.m"; sourceTree = "<group>"; };
+		CB688DD42405186C002A7417 /* UIViewController+LGNoNetworkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LGNoNetworkView.m"; sourceTree = "<group>"; };
+		CB688DD52405186C002A7417 /* UIViewController+LGNoNetworkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LGNoNetworkView.h"; sourceTree = "<group>"; };
+		CB688DDB24051872002A7417 /* UIView+LGNoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LGNoDataView.m"; sourceTree = "<group>"; };
+		CB688DDC24051872002A7417 /* UIView+LGNoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LGNoDataView.h"; sourceTree = "<group>"; };
+		CB688DE224051885002A7417 /* LGNavigationBarItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGNavigationBarItemView.m; sourceTree = "<group>"; };
+		CB688DE324051885002A7417 /* LGNavigationBarItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGNavigationBarItemView.h; sourceTree = "<group>"; };
+		CB688DE924051890002A7417 /* LGNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGNavigationBar.m; sourceTree = "<group>"; };
+		CB688DEA24051890002A7417 /* LGNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGNavigationBar.h; sourceTree = "<group>"; };
 		CBC5DB76237A9E6300A7DFC1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CBC5DB78237A9E6D00A7DFC1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CBC5DB7C237BCBEE00A7DFC1 /* NSObject+LGAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LGAttribute.m"; sourceTree = "<group>"; };
@@ -375,16 +373,17 @@
 		814C4A35202AF535007F54CB /* LGKit */ = {
 			isa = PBXGroup;
 			children = (
-				CB688DE824051890002A7417 /* PIXNavigationBar */,
-				CB688DE124051885002A7417 /* PIXNavigationBarItemView */,
-				CB688DDA24051872002A7417 /* NoDataView */,
-				CB688DD32405186C002A7417 /* NoNetwork */,
-				CB688DC024051859002A7417 /* PhotoDownload */,
-				CB688DB924051845002A7417 /* LoadingView */,
+				CB4DB3C42430D30600F1DBD1 /* Define.h */,
+				CB4DB3C32430D2EC00F1DBD1 /* Constants */,
+				CB4DB3BC2430D0E000F1DBD1 /* LGTheme */,
+				CB688DE824051890002A7417 /* LGNavigationBar */,
+				CB688DE124051885002A7417 /* LGNavigationBarItemView */,
+				CB688DDA24051872002A7417 /* LGNoDataView */,
+				CB688DD32405186C002A7417 /* LGNoNetworkView */,
+				CB688DB924051845002A7417 /* LGLoadingView */,
 				814C4A4D202AF6A2007F54CB /* Category */,
 				814C4A36202AF535007F54CB /* LGKit.h */,
 				814C4A37202AF536007F54CB /* Info.plist */,
-				CB3D923E23B47D0400C99D88 /* LGMacro.h */,
 			);
 			path = LGKit;
 			sourceTree = "<group>";
@@ -401,21 +400,8 @@
 		814C4A4D202AF6A2007F54CB /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				CB688DB32405181D002A7417 /* UIBarButtonItem+PIXHelper.h */,
-				CB688DB42405181D002A7417 /* UIBarButtonItem+PIXHelper.m */,
-				CBFDEBB623FE1D5D0019DE9E /* LGUITextField */,
-				814C4A4E202AF6A2007F54CB /* LGLayer */,
-				814C4A5C202AF6A2007F54CB /* LGNSDate */,
-				814C4A5F202AF6A2007F54CB /* LGNSObject */,
-				814C4A51202AF6A2007F54CB /* LGNSString */,
-				814C4A76202AF6A2007F54CB /* LGUIButton */,
-				814C4A73202AF6A2007F54CB /* LGUIColor */,
-				814C4A79202AF6A2007F54CB /* LGUIImage */,
-				814C4A8D202AF6A2007F54CB /* LGUIView */,
-				814C4A8A202AF6A2007F54CB /* LGUIImageView */,
-				814C4A6C202AF6A2007F54CB /* LGUIScrollView */,
-				814C4A87202AF6A2007F54CB /* LGUITextView */,
-				814C4A84202AF6A2007F54CB /* LGUIViewController */,
+				CB4DB3BB2430AEB500F1DBD1 /* UIKit */,
+				CB4DB3BA2430AEA200F1DBD1 /* Fondation */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -479,10 +465,10 @@
 		814C4A6C202AF6A2007F54CB /* LGUIScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				814C4A6E202AF6A2007F54CB /* UITableView+LG.h */,
-				814C4A72202AF6A2007F54CB /* UITableView+LG.m */,
-				814C4A71202AF6A2007F54CB /* UICollectionView+LG.h */,
-				814C4A6F202AF6A2007F54CB /* UICollectionView+LG.m */,
+				CB4DB3A82430AD8C00F1DBD1 /* UICollectionView+LG.h */,
+				CB4DB3AB2430AD9500F1DBD1 /* UICollectionView+LG.m */,
+				CB4DB3A92430AD8D00F1DBD1 /* UITableView+LG.h */,
+				CB4DB3AA2430AD9200F1DBD1 /* UITableView+LG.m */,
 				814C4A70202AF6A2007F54CB /* UIScrollView+LGScreenShot.h */,
 				814C4A6D202AF6A2007F54CB /* UIScrollView+LGScreenShot.m */,
 			);
@@ -558,6 +544,8 @@
 		814C4A8D202AF6A2007F54CB /* LGUIView */ = {
 			isa = PBXGroup;
 			children = (
+				CB4DB3A32430AD4F00F1DBD1 /* UIView+LGRectCorner.h */,
+				CB4DB3A22430AD4F00F1DBD1 /* UIView+LGRectCorner.m */,
 				814C4A90202AF6A2007F54CB /* UIView+LGAutoLayout.h */,
 				814C4A8E202AF6A2007F54CB /* UIView+LGAutoLayout.m */,
 			);
@@ -683,6 +671,52 @@
 			path = item2;
 			sourceTree = "<group>";
 		};
+		CB4DB3BA2430AEA200F1DBD1 /* Fondation */ = {
+			isa = PBXGroup;
+			children = (
+				814C4A5C202AF6A2007F54CB /* LGNSDate */,
+				814C4A5F202AF6A2007F54CB /* LGNSObject */,
+				814C4A51202AF6A2007F54CB /* LGNSString */,
+			);
+			path = Fondation;
+			sourceTree = "<group>";
+		};
+		CB4DB3BB2430AEB500F1DBD1 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				CB688DB32405181D002A7417 /* UIBarButtonItem+LGHelper.h */,
+				CB688DB42405181D002A7417 /* UIBarButtonItem+LGHelper.m */,
+				814C4A4E202AF6A2007F54CB /* LGLayer */,
+				CBFDEBB623FE1D5D0019DE9E /* LGUITextField */,
+				814C4A76202AF6A2007F54CB /* LGUIButton */,
+				814C4A73202AF6A2007F54CB /* LGUIColor */,
+				814C4A79202AF6A2007F54CB /* LGUIImage */,
+				814C4A8D202AF6A2007F54CB /* LGUIView */,
+				814C4A8A202AF6A2007F54CB /* LGUIImageView */,
+				814C4A6C202AF6A2007F54CB /* LGUIScrollView */,
+				814C4A87202AF6A2007F54CB /* LGUITextView */,
+				814C4A84202AF6A2007F54CB /* LGUIViewController */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		CB4DB3BC2430D0E000F1DBD1 /* LGTheme */ = {
+			isa = PBXGroup;
+			children = (
+				CB4DB3BD2430D0F200F1DBD1 /* LGTheme.h */,
+				CB4DB3BE2430D0F200F1DBD1 /* LGTheme.m */,
+			);
+			path = LGTheme;
+			sourceTree = "<group>";
+		};
+		CB4DB3C32430D2EC00F1DBD1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D923E23B47D0400C99D88 /* LGMacro.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		CB604CC023B49EE400A4BFE4 /* Swizz */ = {
 			isa = PBXGroup;
 			children = (
@@ -696,65 +730,52 @@
 			path = Swizz;
 			sourceTree = "<group>";
 		};
-		CB688DB924051845002A7417 /* LoadingView */ = {
+		CB688DB924051845002A7417 /* LGLoadingView */ = {
 			isa = PBXGroup;
 			children = (
-				CB688DBA24051845002A7417 /* UIView+PIXLoading.h */,
-				CB688DBB24051845002A7417 /* UIView+PIXLoading.m */,
+				CB688DBA24051845002A7417 /* UIView+LGLoadingView.h */,
+				CB688DBB24051845002A7417 /* UIView+LGLoadingView.m */,
 			);
-			name = LoadingView;
-			path = ../../pixbe/Photon/Common/LoadingView;
+			name = LGLoadingView;
+			path = ../../pixbe/Photon/Common/LGLoadingView;
 			sourceTree = "<group>";
 		};
-		CB688DC024051859002A7417 /* PhotoDownload */ = {
+		CB688DD32405186C002A7417 /* LGNoNetworkView */ = {
 			isa = PBXGroup;
 			children = (
-				CB688DC124051859002A7417 /* PIXPhotoDownLoadManage.h */,
-				CB688DC224051859002A7417 /* PIXDownloadAlert.h */,
-				CB688DC324051859002A7417 /* PIXPhotoDownloadItem.h */,
-				CB688DC424051859002A7417 /* PIXPhotoDownLoadManage.m */,
-				CB688DC524051859002A7417 /* PIXPhotoDownloadItem.m */,
-				CB688DC624051859002A7417 /* PIXDownloadAlert.m */,
+				CB688DD52405186C002A7417 /* UIViewController+LGNoNetworkView.h */,
+				CB688DD42405186C002A7417 /* UIViewController+LGNoNetworkView.m */,
 			);
-			path = PhotoDownload;
+			path = LGNoNetworkView;
 			sourceTree = "<group>";
 		};
-		CB688DD32405186C002A7417 /* NoNetwork */ = {
+		CB688DDA24051872002A7417 /* LGNoDataView */ = {
 			isa = PBXGroup;
 			children = (
-				CB688DD42405186C002A7417 /* UIViewController+PIXNoNetwork.m */,
-				CB688DD52405186C002A7417 /* UIViewController+PIXNoNetwork.h */,
+				CB688DDC24051872002A7417 /* UIView+LGNoDataView.h */,
+				CB688DDB24051872002A7417 /* UIView+LGNoDataView.m */,
 			);
-			path = NoNetwork;
+			path = LGNoDataView;
 			sourceTree = "<group>";
 		};
-		CB688DDA24051872002A7417 /* NoDataView */ = {
+		CB688DE124051885002A7417 /* LGNavigationBarItemView */ = {
 			isa = PBXGroup;
 			children = (
-				CB688DDB24051872002A7417 /* UIView+PIXNoDataView.m */,
-				CB688DDC24051872002A7417 /* UIView+PIXNoDataView.h */,
+				CB688DE324051885002A7417 /* LGNavigationBarItemView.h */,
+				CB688DE224051885002A7417 /* LGNavigationBarItemView.m */,
 			);
-			path = NoDataView;
+			name = LGNavigationBarItemView;
+			path = ../../pixbe/Photon/Common/LGNavigationBarItemView;
 			sourceTree = "<group>";
 		};
-		CB688DE124051885002A7417 /* PIXNavigationBarItemView */ = {
+		CB688DE824051890002A7417 /* LGNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				CB688DE224051885002A7417 /* PIXNavigationBarItemView.m */,
-				CB688DE324051885002A7417 /* PIXNavigationBarItemView.h */,
+				CB688DEA24051890002A7417 /* LGNavigationBar.h */,
+				CB688DE924051890002A7417 /* LGNavigationBar.m */,
 			);
-			name = PIXNavigationBarItemView;
-			path = ../../pixbe/Photon/Common/PIXNavigationBarItemView;
-			sourceTree = "<group>";
-		};
-		CB688DE824051890002A7417 /* PIXNavigationBar */ = {
-			isa = PBXGroup;
-			children = (
-				CB688DE924051890002A7417 /* PIXNavigationBar.m */,
-				CB688DEA24051890002A7417 /* PIXNavigationBar.h */,
-			);
-			name = PIXNavigationBar;
-			path = ../../pixbe/Photon/Common/PIXNavigationBar;
+			name = LGNavigationBar;
+			path = ../../pixbe/Photon/Common/LGNavigationBar;
 			sourceTree = "<group>";
 		};
 		CBFDEBB623FE1D5D0019DE9E /* LGUITextField */ = {
@@ -773,30 +794,31 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB688DC924051859002A7417 /* PIXPhotoDownloadItem.h in Headers */,
+				CB4DB3AC2430AD9500F1DBD1 /* UICollectionView+LG.h in Headers */,
+				CB4DB3BF2430D0F200F1DBD1 /* LGTheme.h in Headers */,
 				814C4AAB202AF6A2007F54CB /* NSObject+LGSwizzDealloc.h in Headers */,
-				CB688DBC24051845002A7417 /* UIView+PIXLoading.h in Headers */,
-				CB688DE024051872002A7417 /* UIView+PIXNoDataView.h in Headers */,
+				CB4DB3C52430D30600F1DBD1 /* Define.h in Headers */,
+				CB688DBC24051845002A7417 /* UIView+LGLoadingView.h in Headers */,
+				CB688DE024051872002A7417 /* UIView+LGNoDataView.h in Headers */,
 				814C4AB3202AF6A2007F54CB /* UIColor+LG.h in Headers */,
 				CB688DA024051746002A7417 /* UIViewController+LGNavigation.h in Headers */,
-				CB688DEE24051890002A7417 /* PIXNavigationBar.h in Headers */,
+				CB688DEE24051890002A7417 /* LGNavigationBar.h in Headers */,
 				CBC5DB7F237BCBEE00A7DFC1 /* NSObject+LGAttribute.h in Headers */,
 				CB688DA3240517C8002A7417 /* UITextView+Placeholder.h in Headers */,
-				CB688DB52405181E002A7417 /* UIBarButtonItem+PIXHelper.h in Headers */,
+				CB688DB52405181E002A7417 /* UIBarButtonItem+LGHelper.h in Headers */,
 				814C4AC8202AF6A2007F54CB /* UIView+LGAutoLayout.h in Headers */,
 				814C4AA5202AF6A2007F54CB /* NSObject+LGPerformBlockAfterDelay.h in Headers */,
 				814C4A44202AF536007F54CB /* LGKit.h in Headers */,
-				CB688DD92405186C002A7417 /* UIViewController+PIXNoNetwork.h in Headers */,
+				CB688DD92405186C002A7417 /* UIViewController+LGNoNetworkView.h in Headers */,
 				CB688DAC240517FF002A7417 /* UIViewController+LGStatusBar.h in Headers */,
-				CB688DC824051859002A7417 /* PIXDownloadAlert.h in Headers */,
 				814C4A96202AF6A2007F54CB /* NSString+LGSize.h in Headers */,
 				814C4ABB202AF6A2007F54CB /* UIImage+LGColor.h in Headers */,
 				814C4AB8202AF6A2007F54CB /* UIImage+LGView.h in Headers */,
+				CB4DB3AD2430AD9500F1DBD1 /* UITableView+LG.h in Headers */,
 				814C4AC4202AF6A2007F54CB /* UIImageView+LG.h in Headers */,
 				814C4AC0202AF6A2007F54CB /* UIViewController+LG.h in Headers */,
 				814C4A94202AF6A2007F54CB /* NSString+LGNull.h in Headers */,
 				814C4AAF202AF6A2007F54CB /* UIScrollView+LGScreenShot.h in Headers */,
-				814C4AB0202AF6A2007F54CB /* UICollectionView+LG.h in Headers */,
 				CB3D924423B47F5700C99D88 /* LGMacro.h in Headers */,
 				814C4A92202AF6A2007F54CB /* CAShapeLayer+LG.h in Headers */,
 				814C4AA2202AF6A2007F54CB /* NSObject+LGRuntime.h in Headers */,
@@ -804,16 +826,15 @@
 				814C4A9B202AF6A2007F54CB /* NSString+LGFormat.h in Headers */,
 				814C4AA6202AF6A2007F54CB /* NSObject+LGProperty.h in Headers */,
 				814C4A9D202AF6A2007F54CB /* NSString+LGOther.h in Headers */,
-				814C4AAD202AF6A2007F54CB /* UITableView+LG.h in Headers */,
 				814C4ABC202AF6A2007F54CB /* UIImage+LGScale.h in Headers */,
 				814C4A9E202AF6A2007F54CB /* NSDate+LG.h in Headers */,
 				814C4A95202AF6A2007F54CB /* NSString+LGDate.h in Headers */,
+				CB4DB3A72430AD4F00F1DBD1 /* UIView+LGRectCorner.h in Headers */,
 				814C4AC3202AF6A2007F54CB /* UITextView+LG.h in Headers */,
 				CB688DAF2405180B002A7417 /* UIViewController+LGModalStyle.h in Headers */,
 				CBFDEBB923FE1DE50019DE9E /* UITextField+PlaceholderLabel.h in Headers */,
 				814C4AA9202AF6A2007F54CB /* NSObject+LGModel.h in Headers */,
-				CB688DC724051859002A7417 /* PIXPhotoDownLoadManage.h in Headers */,
-				CB688DE724051885002A7417 /* PIXNavigationBarItemView.h in Headers */,
+				CB688DE724051885002A7417 /* LGNavigationBarItemView.h in Headers */,
 				814C4AB5202AF6A2007F54CB /* UIButton+LG.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -883,7 +904,7 @@
 			attributes = {
 				CLASSPREFIX = LG;
 				LastUpgradeCheck = 1110;
-				ORGANIZATIONNAME = lg;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					814C4A32202AF535007F54CB = {
 						CreatedOnToolsVersion = 9.2;
@@ -974,7 +995,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				814C4AB2202AF6A2007F54CB /* UIColor+LG.m in Sources */,
-				814C4AAE202AF6A2007F54CB /* UICollectionView+LG.m in Sources */,
 				814C4AAC202AF6A2007F54CB /* UIScrollView+LGScreenShot.m in Sources */,
 				814C4A9A202AF6A2007F54CB /* NSString+LGNull.m in Sources */,
 				814C4AA3202AF6A2007F54CB /* NSObject+LGProperty.m in Sources */,
@@ -986,29 +1006,29 @@
 				814C4A99202AF6A2007F54CB /* NSString+LGDate.m in Sources */,
 				814C4AA0202AF6A2007F54CB /* NSObject+LGModel.m in Sources */,
 				814C4AC2202AF6A2007F54CB /* UITextView+LG.m in Sources */,
-				CB688DCA24051859002A7417 /* PIXPhotoDownLoadManage.m in Sources */,
 				814C4AC1202AF6A2007F54CB /* UIViewController+LG.m in Sources */,
 				814C4ABD202AF6A2007F54CB /* UIImage+LGView.m in Sources */,
-				CB688DD62405186C002A7417 /* UIViewController+PIXNoNetwork.m in Sources */,
-				814C4AB1202AF6A2007F54CB /* UITableView+LG.m in Sources */,
-				CB688DB62405181E002A7417 /* UIBarButtonItem+PIXHelper.m in Sources */,
+				CB688DD62405186C002A7417 /* UIViewController+LGNoNetworkView.m in Sources */,
+				CB688DB62405181E002A7417 /* UIBarButtonItem+LGHelper.m in Sources */,
 				CBFDEBBA23FE1DE50019DE9E /* UITextField+PlaceholderLabel.m in Sources */,
+				CB4DB3B12430AD9500F1DBD1 /* UICollectionView+LG.m in Sources */,
 				814C4A93202AF6A2007F54CB /* CAShapeLayer+LG.m in Sources */,
-				CB688DE424051885002A7417 /* PIXNavigationBarItemView.m in Sources */,
+				CB688DE424051885002A7417 /* LGNavigationBarItemView.m in Sources */,
 				814C4AA4202AF6A2007F54CB /* NSObject+LGSwizzDealloc.m in Sources */,
-				CB688DDD24051872002A7417 /* UIView+PIXNoDataView.m in Sources */,
+				CB688DDD24051872002A7417 /* UIView+LGNoDataView.m in Sources */,
+				CB4DB3A42430AD4F00F1DBD1 /* UIView+LGRectCorner.m in Sources */,
 				CB688DB02405180B002A7417 /* UIViewController+LGModalStyle.m in Sources */,
 				CB688DA9240517FF002A7417 /* UIViewController+LGStatusBar.m in Sources */,
 				814C4AAA202AF6A2007F54CB /* NSObject+LGPerformBlockAfterDelay.m in Sources */,
+				CB4DB3AE2430AD9500F1DBD1 /* UITableView+LG.m in Sources */,
 				814C4AC6202AF6A2007F54CB /* UIView+LGAutoLayout.m in Sources */,
 				814C4AB9202AF6A2007F54CB /* UIImage+LGScale.m in Sources */,
-				CB688DCD24051859002A7417 /* PIXPhotoDownloadItem.m in Sources */,
 				CBC5DB7E237BCBEE00A7DFC1 /* NSObject+LGAttribute.m in Sources */,
 				CB688DA4240517C8002A7417 /* UITextView+Placeholder.m in Sources */,
 				814C4A97202AF6A2007F54CB /* NSString+LGFormat.m in Sources */,
-				CB688DD024051859002A7417 /* PIXDownloadAlert.m in Sources */,
-				CB688DBD24051845002A7417 /* UIView+PIXLoading.m in Sources */,
-				CB688DEB24051890002A7417 /* PIXNavigationBar.m in Sources */,
+				CB4DB3C02430D0F200F1DBD1 /* LGTheme.m in Sources */,
+				CB688DBD24051845002A7417 /* UIView+LGLoadingView.m in Sources */,
+				CB688DEB24051890002A7417 /* LGNavigationBar.m in Sources */,
 				814C4AB4202AF6A2007F54CB /* UIButton+LG.m in Sources */,
 				814C4AB6202AF6A2007F54CB /* UIImage+LGColor.m in Sources */,
 				814C4A98202AF6A2007F54CB /* NSString+LGOther.m in Sources */,
@@ -1021,18 +1041,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				814C4A42202AF536007F54CB /* LGKitTests.m in Sources */,
-				CB688DBE24051845002A7417 /* UIView+PIXLoading.m in Sources */,
-				CB688DB72405181E002A7417 /* UIBarButtonItem+PIXHelper.m in Sources */,
-				CB688DD124051859002A7417 /* PIXDownloadAlert.m in Sources */,
-				CB688DCE24051859002A7417 /* PIXPhotoDownloadItem.m in Sources */,
+				CB688DBE24051845002A7417 /* UIView+LGLoadingView.m in Sources */,
+				CB688DB72405181E002A7417 /* UIBarButtonItem+LGHelper.m in Sources */,
+				CB4DB3B22430AD9500F1DBD1 /* UICollectionView+LG.m in Sources */,
+				CB4DB3A52430AD4F00F1DBD1 /* UIView+LGRectCorner.m in Sources */,
+				CB4DB3AF2430AD9500F1DBD1 /* UITableView+LG.m in Sources */,
 				CB688DAA240517FF002A7417 /* UIViewController+LGStatusBar.m in Sources */,
 				CB688DA5240517C8002A7417 /* UITextView+Placeholder.m in Sources */,
-				CB688DCB24051859002A7417 /* PIXPhotoDownLoadManage.m in Sources */,
-				CB688DD72405186C002A7417 /* UIViewController+PIXNoNetwork.m in Sources */,
-				CB688DE524051885002A7417 /* PIXNavigationBarItemView.m in Sources */,
-				CB688DDE24051872002A7417 /* UIView+PIXNoDataView.m in Sources */,
-				CB688DEC24051890002A7417 /* PIXNavigationBar.m in Sources */,
+				CB688DD72405186C002A7417 /* UIViewController+LGNoNetworkView.m in Sources */,
+				CB688DE524051885002A7417 /* LGNavigationBarItemView.m in Sources */,
+				CB688DDE24051872002A7417 /* UIView+LGNoDataView.m in Sources */,
+				CB688DEC24051890002A7417 /* LGNavigationBar.m in Sources */,
 				CB688DB12405180B002A7417 /* UIViewController+LGModalStyle.m in Sources */,
+				CB4DB3C12430D0F200F1DBD1 /* LGTheme.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1040,20 +1061,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB688DE624051885002A7417 /* PIXNavigationBarItemView.m in Sources */,
-				CB688DCF24051859002A7417 /* PIXPhotoDownloadItem.m in Sources */,
-				CB688DD82405186C002A7417 /* UIViewController+PIXNoNetwork.m in Sources */,
-				CB688DED24051890002A7417 /* PIXNavigationBar.m in Sources */,
+				CB688DE624051885002A7417 /* LGNavigationBarItemView.m in Sources */,
+				CB688DD82405186C002A7417 /* UIViewController+LGNoNetworkView.m in Sources */,
+				CB688DED24051890002A7417 /* LGNavigationBar.m in Sources */,
 				814C4B05202AFEA3007F54CB /* SubSwizzTestObj.m in Sources */,
-				CB688DBF24051845002A7417 /* UIView+PIXLoading.m in Sources */,
+				CB688DBF24051845002A7417 /* UIView+LGLoadingView.m in Sources */,
 				CB688DA6240517C8002A7417 /* UITextView+Placeholder.m in Sources */,
 				CB688DB22405180B002A7417 /* UIViewController+LGModalStyle.m in Sources */,
 				CB3D924D23B4851800C99D88 /* TestTableViewItem.m in Sources */,
-				CB688DD224051859002A7417 /* PIXDownloadAlert.m in Sources */,
-				CB688DDF24051872002A7417 /* UIView+PIXNoDataView.m in Sources */,
+				CB688DDF24051872002A7417 /* UIView+LGNoDataView.m in Sources */,
 				CB604CC623B5B2D600A4BFE4 /* LGSwizzSubClass.m in Sources */,
 				CB3D923223B460A900C99D88 /* TestTableViewTableViewCell.m in Sources */,
-				CB688DCC24051859002A7417 /* PIXPhotoDownLoadManage.m in Sources */,
 				814C4B01202AFEA3007F54CB /* EasyKVOTestObj.m in Sources */,
 				CB3D924723B4845100C99D88 /* TestTableViewItem2.m in Sources */,
 				814C4B0B202AFEF5007F54CB /* LGListViewController.m in Sources */,
@@ -1064,13 +1082,15 @@
 				814C4B04202AFEA3007F54CB /* SwizzTestObject.m in Sources */,
 				CB3D923A23B4622A00C99D88 /* TestTableViewItem1.m in Sources */,
 				814C4B02202AFEA3007F54CB /* EasyKVOTestViewController.m in Sources */,
-				CB688DB82405181E002A7417 /* UIBarButtonItem+PIXHelper.m in Sources */,
+				CB688DB82405181E002A7417 /* UIBarButtonItem+LGHelper.m in Sources */,
 				CB604CC323B5B2C400A4BFE4 /* LGSwizzSuperClass.m in Sources */,
 				CB604CC923B5B32700A4BFE4 /* LGSwizzViewController.m in Sources */,
 				CB688DAB240517FF002A7417 /* UIViewController+LGStatusBar.m in Sources */,
 				814C4B06202AFEA3007F54CB /* SwizzDeallocViewController.m in Sources */,
+				CB4DB3A62430AD4F00F1DBD1 /* UIView+LGRectCorner.m in Sources */,
 				CB688D9F24051746002A7417 /* UIViewController+LGNavigation.m in Sources */,
 				CBFDEBBB23FE1DE50019DE9E /* UITextField+PlaceholderLabel.m in Sources */,
+				CB4DB3C22430D0F200F1DBD1 /* LGTheme.m in Sources */,
 				814C4ADB202AFE49007F54CB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

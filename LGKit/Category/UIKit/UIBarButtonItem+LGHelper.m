@@ -1,15 +1,15 @@
 //
-//  UIBarButtonItem+PIXHelper.m
+//  UIBarButtonItem+LGHelper.m
 //  Photon
 //
 //  Created by lg on 2020/2/11.
 //  Copyright © 2020 everimaging. All rights reserved.
 //
 
-#import "UIBarButtonItem+PIXHelper.h"
-#import "PIXNavigationBarItemView.h"
+#import "UIBarButtonItem+LGHelper.h"
+#import "LGNavigationBarItemView.h"
 
-@implementation UIBarButtonItem (PIXHelper)
+@implementation UIBarButtonItem (LGHelper)
 
 + (UIBarButtonItem *)itemWithImageName:(NSString *)imageName target:(id)target action:(SEL)action {
     
@@ -32,7 +32,7 @@
 
 + (UIBarButtonItem *)itemWithImageNames:(NSArray<NSString *> *)imageNames target:(id)target action:(SEL)action {
     
-    PIXNavigationBarItemView *itemView = [[PIXNavigationBarItemView alloc] initWithUseSubViewSize:NO];
+    LGNavigationBarItemView *itemView = [[LGNavigationBarItemView alloc] initWithUseSubViewSize:NO];
     [imageNames enumerateObjectsUsingBlock:^(NSString * _Nonnull imageName, NSUInteger idx, BOOL * _Nonnull stop) {
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
         [btn setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
